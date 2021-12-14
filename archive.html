@@ -25,19 +25,20 @@
 	<link rel="stylesheet" href='./assets/css/overrides.css' />
 <style type="text/css">
 	#wrapper > .bg {
-	    background-image: url(/images/overlay.png),
-	    	linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-	    	url(https://martysteer.github.io/mythaxis/issue-27/images/True-Worship.jpg);
+	    background-image: url(https://martysteer.github.io/mythaxis/issue-27/images/True-Worship.jpg);
+	    	background-size: 100% auto;
+			background-position: top center;
+			background-repeat: no-repeat;
 	}
 
 	
-	@media screen and (max-width: 810px) {
+	@media screen and (max-width: 980px) {
 		#wrapper > .bg {
-		    background-image: 
-		    url(/images/overlay.png),
-		    	linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-		    	url(https://martysteer.github.io/mythaxis/issue-27/images/True-Worship-mobile.jpg);
-		    	background-size: auto, auto, 100%;
+		    background-image: url(https://martysteer.github.io/mythaxis/issue-27/images/True-Worship-mobile.jpg);
+		}
+	@media screen and (max-width: 500px) {
+		#wrapper > .bg {
+			background-size: cover;
 		}
 	}
 
@@ -58,10 +59,10 @@
 		
 		
 		#intro ul.actions {
-			display: none;
 			
 			
 			
+			align-self: flex-end;
 			
 		}
 		
@@ -178,10 +179,10 @@
 
             <h2 id="back-issues">Back Issues</h2>
 <ul>
-<li><a href="https://martysteer.github.io/mythaxis/issue-26/">Issue 26: June 21</a></li>
-<li><a href="https://martysteer.github.io/mythaxis/issue-25/">Issue 25: Apr 21</a></li>
-<li><a href="https://martysteer.github.io/mythaxis/issue-24/">Issue 24: Dec 20</a></li>
-<li><a href="https://martysteer.github.io/mythaxis/issue-23/">Issue 23: Aug 20</a></li>
+<li><a href="./issue-26/">Issue 26: June 21</a></li>
+<li><a href="./issue-25/">Issue 25: Apr 21</a></li>
+<li><a href="./issue-24/">Issue 24: Dec 20</a></li>
+<li><a href="./issue-23/">Issue 23: Aug 20</a></li>
 </ul>
 <h2 id="archives">Archives</h2>
 <p><em>Welcome to the Mythaxis Magazine Archive!</em></p>
