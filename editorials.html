@@ -170,19 +170,14 @@
 
 
 <style type="text/css">
- 
 
-.nebula-intro {
-    background-image:
-        linear-gradient(180deg,
-            rgba(15, 15, 35, 0.7) 0%,
-            rgba(15, 15, 35, 0.3) 50%,
-            rgba(255, 255, 255, 1) 100%
-        ),
-        url(/issue-45/images/Sanka_footsteps_sqr.jpg);
-    background-size: cover;
-    background-position: center;
+.theme-nebula2026 {
+    
+    --color-primary: #5a3d6e;
+    --color-secondary: #a8765c;
+    
 }
+
 
 </style>
 
@@ -205,9 +200,7 @@
 	<meta property="og:title" content="Editorials" />
 	<meta property="og:type" content="website" />
 	
-</head>
-  
-  <body lang='en' class="is-preload">
+</head><body lang='en' class="is-preload theme-nebula2026">
     
     <div id="wrapper">
       
@@ -221,59 +214,12 @@
       <span class="nebula-header__subhead">Spring 2026</span>
     </a>
     
-    <a href="./" class="nebula-header__logo">Mythaxis</a>
+    <button class="nebula-header__logo" id="nebula-menu-trigger" aria-label="Open menu">Mythaxis</button>
   </div>
 </header>
 
 
       
-
-
-
-
-<nav id="nav" class="nebula-nav">
-  <ul class="nebula-nav__links">
-    
-    
-    <li>
-      <a href="./" class="nebula-nav__link ">Home</a>
-    </li>
-    
-
-    
-    
-    
-      
-    <li>
-      <a href="./issue-45/editorial.html" class="nebula-nav__link ">Editorial</a>
-    </li>
-    
-      
-    <li>
-      <a href="./issue-45/contents.html" class="nebula-nav__link ">Contents</a>
-    </li>
-    
-    
-
-    
-    
-      
-    <li>
-      <a href="./archive.html" class="nebula-nav__link ">Archive</a>
-    </li>
-    
-      
-    <li>
-      <a href="./submissions.html" class="nebula-nav__link ">Submissions</a>
-    </li>
-    
-      
-    <li>
-      <a href="./about.html" class="nebula-nav__link ">About</a>
-    </li>
-    
-  </ul>
-</nav>
 
 
 <button class="nebula-burger" id="nebula-burger" aria-label="Open menu" aria-expanded="false">
@@ -285,6 +231,7 @@
 
 <div class="nebula-nav-panel" id="nebula-nav-panel" aria-hidden="true">
   <div class="nebula-nav-panel__content">
+    <div class="nebula-nav-panel__logotype">Mythaxis</div>
     <ul class="nebula-nav-panel__links">
       
       
@@ -326,6 +273,9 @@
       </li>
       
     </ul>
+    <div class="nebula-nav-panel__roundel">
+      <img src="./images/roundels/fantasy-100.svg" alt="" aria-hidden="true" />
+    </div>
   </div>
 </div>
 
@@ -333,6 +283,18 @@
 <div class="nebula-nav-backdrop" id="nebula-nav-backdrop"></div>
 
 
+
+      
+      <div class="nebula-page-hero">
+        <div class="landing-header__hero">
+          <img src="./issue-45/images/Sanka_footsteps_sqr.jpg"
+               alt="Issue 45-test"
+               class="landing-header__image"
+               loading="eager" decoding="sync" />
+          <div class="landing-header__overlay"></div>
+        </div>
+      </div>
+      
 
       
       <div id="main">
@@ -724,31 +686,6 @@
         </div>
         
     </div>
-
-    <nav class="nebula-catalogue-nav" aria-label="Catalogue navigation">
-    <div class="nebula-nav-links">
-        
-        <a href='./archive.html' class="nebula-nav-link">Archives</a>
-        
-        <span class="nebula-nav-separator">•</span>
-        
-        <a href='./authors.html' class="nebula-nav-link">Authors</a>
-        
-        <span class="nebula-nav-separator">•</span>
-        
-        <a href='./catalogue.html' class="nebula-nav-link">Catalogue</a>
-        
-        <span class="nebula-nav-separator">•</span>
-        
-        <a href='./editorials.html' class="nebula-nav-link">Editorials</a>
-        
-        <span class="nebula-nav-separator">•</span>
-        
-        <a href='./genres.html' class="nebula-nav-link">Genres</a>
-        
-    </div>
-</nav>
-
 </section>
 
       </div>
@@ -763,7 +700,7 @@
         <p class="nebula-copyright-secondary">
             Portions of this site are copyrighted to third parties.
             <span class="nebula-copyright-divider">•</span>
-            Theme: <a href="https://themes.gohugo.io/hugo-theme-massively/">HTML5 UP Massively</a>
+            Theme: <a href="https://github.com/curtiscde/hugo-theme-massively">HTML5 UP Massively</a>
         </p>
         <p class="nebula-copyright-notice">
             This site uses Google Analytics.

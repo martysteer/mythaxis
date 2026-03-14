@@ -20,19 +20,14 @@
 
 
 <style type="text/css">
- 
 
-.nebula-intro {
-    background-image:
-        linear-gradient(180deg,
-            rgba(15, 15, 35, 0.7) 0%,
-            rgba(15, 15, 35, 0.3) 50%,
-            rgba(255, 255, 255, 1) 100%
-        ),
-        url(/issue-45/images/Sanka_footsteps_sqr.jpg);
-    background-size: cover;
-    background-position: center;
+.theme-nebula2026 {
+    
+    --color-primary: #5a3d6e;
+    --color-secondary: #a8765c;
+    
 }
+
 
 </style>
 
@@ -71,59 +66,12 @@
       <span class="nebula-header__subhead">Spring 2026</span>
     </a>
     
-    <a href="../" class="nebula-header__logo">Mythaxis</a>
+    <button class="nebula-header__logo" id="nebula-menu-trigger" aria-label="Open menu">Mythaxis</button>
   </div>
 </header>
 
 
       
-
-
-
-
-<nav id="nav" class="nebula-nav">
-  <ul class="nebula-nav__links">
-    
-    
-    <li>
-      <a href="../" class="nebula-nav__link ">Home</a>
-    </li>
-    
-
-    
-    
-    
-      
-    <li>
-      <a href="../issue-45/editorial.html" class="nebula-nav__link ">Editorial</a>
-    </li>
-    
-      
-    <li>
-      <a href="../issue-45/contents.html" class="nebula-nav__link ">Contents</a>
-    </li>
-    
-    
-
-    
-    
-      
-    <li>
-      <a href="../archive.html" class="nebula-nav__link ">Archive</a>
-    </li>
-    
-      
-    <li>
-      <a href="../submissions.html" class="nebula-nav__link ">Submissions</a>
-    </li>
-    
-      
-    <li>
-      <a href="../about.html" class="nebula-nav__link ">About</a>
-    </li>
-    
-  </ul>
-</nav>
 
 
 <button class="nebula-burger" id="nebula-burger" aria-label="Open menu" aria-expanded="false">
@@ -135,6 +83,7 @@
 
 <div class="nebula-nav-panel" id="nebula-nav-panel" aria-hidden="true">
   <div class="nebula-nav-panel__content">
+    <div class="nebula-nav-panel__logotype">Mythaxis</div>
     <ul class="nebula-nav-panel__links">
       
       
@@ -176,6 +125,9 @@
       </li>
       
     </ul>
+    <div class="nebula-nav-panel__roundel">
+      <img src="../images/roundels/fantasy-100.svg" alt="" aria-hidden="true" />
+    </div>
   </div>
 </div>
 
@@ -232,6 +184,17 @@
 
   
   <div class="story-header-minimal" id="story-header-minimal">
+    
+    <div class="story-header-minimal__bg">
+      <img src="../issue-45/images/Sanka_footsteps_sqr.jpg"
+           alt=""
+           aria-hidden="true"
+           class="story-header-minimal__image"
+           loading="eager"
+           decoding="async" />
+      <div class="story-header-minimal__overlay"></div>
+    </div>
+    
     <div class="story-header-minimal__content">
       <div class="story-header-minimal__info">
         <h2 class="story-header-minimal__title">Short Reviews – Crime Fiction in 2025</h2>
@@ -319,49 +282,35 @@ y final recommendation is more like a case of <em>first amongst equals</em>, as 
 
 
   
-  
-  <nav class="story-navigation">
-    <div class="story-navigation__container">
+  <div class="story-nav-strip-wrap">
+  <nav class="story-nav-strip">
+    <div class="story-nav-strip__prev">
+      
+      <a href="../issue-45/editorial.html" class="story-nav-strip__link" title="Editorial">
+        <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M15 18l-6-6 6-6"/>
+        </svg>
+        <span class="story-nav-strip__title">Editorial</span>
+      </a>
+      
+    </div>
 
-      <div class="story-navigation__toc">
-        <a href="../issue-45/" class="nav-button nav-button--toc">
-          <svg class="nav-button__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M19 12H5M12 19l-7-7 7-7"/>
-          </svg>
-          <span class="nav-button__text">Table of Contents</span>
-        </a>
-      </div>
+    <a href="../issue-45/contents.html" class="story-nav-strip__toc">
+      Contents
+    </a>
 
-      <div class="story-navigation__prevnext">
-
-        
-        <a href="../issue-45/editorial.html" class="nav-button nav-button--prev" title="Editorial">
-          <svg class="nav-button__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M15 18l-6-6 6-6"/>
-          </svg>
-          <div class="nav-button__content">
-            <span class="nav-button__label">Previous</span>
-            <span class="nav-button__title">Editorial</span>
-          </div>
-        </a>
-        
-
-        
-        <a href="../issue-45/payment-deferred-c-s-forester.html" class="nav-button nav-button--next" title="Payment Deferred, by C. S. Forester">
-          <div class="nav-button__content">
-            <span class="nav-button__label">Next</span>
-            <span class="nav-button__title">Payment Deferred, by C. S. Forester</span>
-          </div>
-          <svg class="nav-button__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M9 18l6-6-6-6"/>
-          </svg>
-        </a>
-        
-
-      </div>
-
+    <div class="story-nav-strip__next">
+      
+      <a href="../issue-45/payment-deferred-c-s-forester.html" class="story-nav-strip__link" title="Payment Deferred, by C. S. Forester">
+        <span class="story-nav-strip__title">Payment Deferred, by C. S. Forester</span>
+        <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M9 18l6-6-6-6"/>
+        </svg>
+      </a>
+      
     </div>
   </nav>
+  </div>
   
 
 </article>
@@ -378,7 +327,7 @@ y final recommendation is more like a case of <em>first amongst equals</em>, as 
         <p class="nebula-copyright-secondary">
             Portions of this site are copyrighted to third parties.
             <span class="nebula-copyright-divider">•</span>
-            Theme: <a href="https://themes.gohugo.io/hugo-theme-massively/">HTML5 UP Massively</a>
+            Theme: <a href="https://github.com/curtiscde/hugo-theme-massively">HTML5 UP Massively</a>
         </p>
         <p class="nebula-copyright-notice">
             This site uses Google Analytics.
