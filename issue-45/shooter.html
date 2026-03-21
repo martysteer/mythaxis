@@ -23,8 +23,8 @@
 
 .theme-nebula2026 {
     
-    --color-primary: #5a3d6e;
-    --color-secondary: #a8765c;
+    --color-primary: #39e01b;
+    --color-secondary: #e75c10;
     
 }
 
@@ -53,6 +53,7 @@
 </head>
 
   <body lang='en' class="is-preload theme-nebula2026">
+    <a href="#main" class="skip-to-content">Skip to content</a>
     
     <div id="wrapper">
       
@@ -66,7 +67,10 @@
       <span class="nebula-header__subhead">Spring 2026</span>
     </a>
     
-    <button class="nebula-header__logo" id="nebula-menu-trigger" aria-label="Open menu">Mythaxis</button>
+    <button class="nebula-header__logo" id="nebula-menu-trigger" aria-label="Open menu" aria-controls="nebula-nav-panel">
+      <span>Mythaxis</span>
+      <span class="nebula-header__logo-roundel" aria-hidden="true"></span>
+    </button>
   </div>
 </header>
 
@@ -74,16 +78,19 @@
       
 
 
-<button class="nebula-burger" id="nebula-burger" aria-label="Open menu" aria-expanded="false">
+<button class="nebula-burger" id="nebula-burger" aria-label="Open menu" aria-expanded="false" aria-controls="nebula-nav-panel">
   <span class="nebula-burger__line"></span>
   <span class="nebula-burger__line"></span>
   <span class="nebula-burger__line"></span>
 </button>
 
 
-<div class="nebula-nav-panel" id="nebula-nav-panel" aria-hidden="true">
+<div class="nebula-nav-panel" id="nebula-nav-panel" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Site navigation">
   <div class="nebula-nav-panel__content">
-    <div class="nebula-nav-panel__logotype">Mythaxis</div>
+    <div class="nebula-nav-panel__logotype">
+      <span>Mythaxis</span>
+      <span class="nebula-nav-panel__logotype-roundel" aria-hidden="true"></span>
+    </div>
     <ul class="nebula-nav-panel__links">
       
       
@@ -126,7 +133,7 @@
       
     </ul>
     <div class="nebula-nav-panel__roundel">
-      <img src="../images/roundels/fantasy-100.svg" alt="" aria-hidden="true" />
+      <img src="../images/roundels/MythaxisKnot.svg" alt="" aria-hidden="true" />
     </div>
   </div>
 </div>
@@ -138,7 +145,7 @@
 
       
       <div id="main">
-        <article class="nebula2026-story-single" data-chapter-marker="orbit" data-genre="orbit">
+        <article class="nebula2026-story-single" data-chapter-marker="MythaxisTarget" data-genre="MythaxisTarget">
 
   
   <header class="story-header" id="story-header">
@@ -200,6 +207,9 @@
     </div>
     
     <div class="story-header-minimal__content">
+      <div class="story-header-minimal__logotype">
+        <img src="../images/roundels/MythaxisKnot.svg" class="story-header-minimal__issue-roundel" alt="" aria-hidden="true" />
+      </div>
       <div class="story-header-minimal__info">
         <h2 class="story-header-minimal__title">Shooter</h2>
         <span class="story-header-minimal__author">
@@ -212,7 +222,7 @@
   
   
   <div class="nebula-audio-player">
-    <audio controls>
+    <audio controls aria-label="Listen to Shooter">
       <source src="https://github.com/mythaxis/mythaxis.github.io/releases/download/i44/2.Shooter.mp3" type="audio/mpeg">
       Your browser does not support the audio tag.
     </audio>
@@ -222,9 +232,7 @@
   
   <div class="story-reading">
     <div class="story-reading__container nebula-article-content">
-      <p><glyph >T</glyph>
-
-he forecast that weekend called for 4th of July perfection: cloudless blue skies, a dulcet southwesterly breeze, and a high of eighty-eight, with barely a five percent chance of a corpse-strewn massacre.</p>
+      <p>The forecast that weekend called for 4th of July perfection: cloudless blue skies, a dulcet southwesterly breeze, and a high of eighty-eight, with barely a five percent chance of a corpse-strewn massacre.</p>
 <p>“Does five percent sound a bit high to anyone else?” Gwethanie asked, pulling her suitcase from the yawning trunk of the SUV. Her bag was the size of a laptop carry-on because all she’d packed were bikinis and morning-after pills.</p>
 <p>“No, that’s, like, one out of twenty,” Chayden mansplained, a steel keg under each veiny bicep. “Since there’s only six of us, not twenty, that means”—you could see the figures swimming behind the empty storefronts of his eyes—“there’s negative two percent chance any of us dies.”</p>
 <p>“I don’t think that’s how math works,” said Tuffy, dry as biscotti. She prided herself on being the brains of the group, and as such, kept her chestnut hair unbleached. She was hailed as brave by her peers, a hero even.</p>
@@ -304,7 +312,6 @@ he forecast that weekend called for 4th of July perfection: cloudless blue skies
 <p>“Not fair,” Gwethanie muttered. “Not fair.”</p>
 <p>Vicarious nodded.</p>
 <p>They took hold of each other’s hand and, in that split second before all went black, let their gaze drift beyond, to a better place, one of eternal peace, where goodness and mercy reign and salvation comes not from the barrel of a gun, but from everlasting love. Canada perhaps.</p>
-<p><img src="images/Orbit.svg" alt="Orbit-lrg"></p>
 <p><em>Thanks for reading - but we&rsquo;d love feedback! Let us know what you think of <strong>Shooter</strong> at <a href="https://bsky.app/profile/mythaxis.bsky.social">Bluesky</a>.</em></p>
 
     </div>
@@ -313,7 +320,7 @@ he forecast that weekend called for 4th of July perfection: cloudless blue skies
   
   <footer class="story-footer">
     <div class="story-divider">
-      <img src="../images/roundels/fantasy-200.svg"
+      <img src="../images/roundels/MythaxisKnot.svg"
            class="story-divider__roundel roundel-animate"
            alt=""
            aria-hidden="true" />
@@ -359,14 +366,14 @@ he forecast that weekend called for 4th of July perfection: cloudless blue skies
 
   
   <div class="story-nav-strip-wrap">
-  <nav class="story-nav-strip">
+  <nav class="story-nav-strip" aria-label="Story navigation">
     <div class="story-nav-strip__prev">
       
-      <a href="../issue-45/twelve-gauge-tune-up.html" class="story-nav-strip__link" title="Twelve Gauge Tune-up">
+      <a href="../issue-45/the-witness.html" class="story-nav-strip__link" title="The Witness">
         <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M15 18l-6-6 6-6"/>
         </svg>
-        <span class="story-nav-strip__title">Twelve Gauge Tune-up</span>
+        <span class="story-nav-strip__title">The Witness</span>
       </a>
       
     </div>
@@ -377,8 +384,8 @@ he forecast that weekend called for 4th of July perfection: cloudless blue skies
 
     <div class="story-nav-strip__next">
       
-      <a href="../issue-45/the-witness.html" class="story-nav-strip__link" title="The Witness">
-        <span class="story-nav-strip__title">The Witness</span>
+      <a href="../issue-45/twelve-gauge-tune-up.html" class="story-nav-strip__link" title="Twelve Gauge Tune-up">
+        <span class="story-nav-strip__title">Twelve Gauge Tune-up</span>
         <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M9 18l6-6-6-6"/>
         </svg>

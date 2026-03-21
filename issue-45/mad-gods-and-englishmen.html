@@ -23,8 +23,8 @@
 
 .theme-nebula2026 {
     
-    --color-primary: #5a3d6e;
-    --color-secondary: #a8765c;
+    --color-primary: #39e01b;
+    --color-secondary: #e75c10;
     
 }
 
@@ -53,6 +53,7 @@
 </head>
 
   <body lang='en' class="is-preload theme-nebula2026">
+    <a href="#main" class="skip-to-content">Skip to content</a>
     
     <div id="wrapper">
       
@@ -66,7 +67,10 @@
       <span class="nebula-header__subhead">Spring 2026</span>
     </a>
     
-    <button class="nebula-header__logo" id="nebula-menu-trigger" aria-label="Open menu">Mythaxis</button>
+    <button class="nebula-header__logo" id="nebula-menu-trigger" aria-label="Open menu" aria-controls="nebula-nav-panel">
+      <span>Mythaxis</span>
+      <span class="nebula-header__logo-roundel" aria-hidden="true"></span>
+    </button>
   </div>
 </header>
 
@@ -74,16 +78,19 @@
       
 
 
-<button class="nebula-burger" id="nebula-burger" aria-label="Open menu" aria-expanded="false">
+<button class="nebula-burger" id="nebula-burger" aria-label="Open menu" aria-expanded="false" aria-controls="nebula-nav-panel">
   <span class="nebula-burger__line"></span>
   <span class="nebula-burger__line"></span>
   <span class="nebula-burger__line"></span>
 </button>
 
 
-<div class="nebula-nav-panel" id="nebula-nav-panel" aria-hidden="true">
+<div class="nebula-nav-panel" id="nebula-nav-panel" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Site navigation">
   <div class="nebula-nav-panel__content">
-    <div class="nebula-nav-panel__logotype">Mythaxis</div>
+    <div class="nebula-nav-panel__logotype">
+      <span>Mythaxis</span>
+      <span class="nebula-nav-panel__logotype-roundel" aria-hidden="true"></span>
+    </div>
     <ul class="nebula-nav-panel__links">
       
       
@@ -126,7 +133,7 @@
       
     </ul>
     <div class="nebula-nav-panel__roundel">
-      <img src="../images/roundels/fantasy-100.svg" alt="" aria-hidden="true" />
+      <img src="../images/roundels/MythaxisKnot.svg" alt="" aria-hidden="true" />
     </div>
   </div>
 </div>
@@ -138,7 +145,7 @@
 
       
       <div id="main">
-        <article class="nebula2026-story-single" data-chapter-marker="orbit" data-genre="orbit">
+        <article class="nebula2026-story-single" data-chapter-marker="MythaxisTarget" data-genre="MythaxisTarget">
 
   
   <header class="story-header" id="story-header">
@@ -200,6 +207,9 @@
     </div>
     
     <div class="story-header-minimal__content">
+      <div class="story-header-minimal__logotype">
+        <img src="../images/roundels/MythaxisKnot.svg" class="story-header-minimal__issue-roundel" alt="" aria-hidden="true" />
+      </div>
       <div class="story-header-minimal__info">
         <h2 class="story-header-minimal__title">Mad Gods &amp; Englishmen</h2>
         <span class="story-header-minimal__author">
@@ -212,7 +222,7 @@
   
   
   <div class="nebula-audio-player">
-    <audio controls>
+    <audio controls aria-label="Listen to Mad Gods &amp; Englishmen">
       <source src="https://github.com/mythaxis/mythaxis.github.io/releases/download/i44/4.Mad.Gods.And.Englishmen.mp3" type="audio/mpeg">
       Your browser does not support the audio tag.
     </audio>
@@ -222,9 +232,7 @@
   
   <div class="story-reading">
     <div class="story-reading__container nebula-article-content">
-      <p><glyph >I</glyph>
-
- dreamed I was on a tiny train. It was only one seat wide and there was no aisle, so you couldn’t move seats and each one had a door on both sides. The train wasn’t going anywhere special. The point was just to be on it for a while, far from the endless sea. Nevertheless, I had a feeling that I might have missed my stop. I tried to make myself feel better by saying, “You’ll know it when you see it.”</p>
+      <p>I dreamed I was on a tiny train. It was only one seat wide and there was no aisle, so you couldn’t move seats and each one had a door on both sides. The train wasn’t going anywhere special. The point was just to be on it for a while, far from the endless sea. Nevertheless, I had a feeling that I might have missed my stop. I tried to make myself feel better by saying, “You’ll know it when you see it.”</p>
 <p>Eventually the train arrived at an open air station next to a skyscraper. There was nothing else in the vicinity but green grass on a level plain stretching to the horizon, which was closer than it should have been. I got down from the train and walked up to the skyscraper. I thought: “Yes.”</p>
 <p>I went inside and walked directly up to the security guard and told him I was there to kill someone. He asked who and I said I didn’t know yet. He pursed his lips and sucked in air. I clarified, quickly, that although I didn’t know who it was I was there to kill, I would know them when I saw them. In other words, it wasn’t as if any old person would do. I was there to assassinate a particular individual whose identity hadn’t been revealed to me yet. He asked me if I had known and temporarily forgotten or if I’d never known in the first place. I said I thought it was the latter.</p>
 <p>He thought about this for a while. I wasn’t worried about which way he would break. I had friendly feelings towards the security guard, and he had friendly feelings towards me. I felt that when this was all over, we might get a drink together, or perhaps wrap ourselves up into a little ball and roll around for a while.</p>
@@ -244,10 +252,8 @@
 <p>I looked at her, trying to remember if I’d seen her before she got on the elevator; in a dark room with men in suits sitting around a conference table while I hovered in the air above a speakerphone surrounded by black candles, for instance.</p>
 <p>“Come on,” I said, and motioned her towards the door.</p>
 <p>She objected to what she called my change of plan. She said she was supposed to stay here and raise the alarm once I was out of sight. I told her the plan had changed. She didn’t agree. I gave her the choice of coming with me or dying on the spot. She chose the first option.</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >T</glyph>
-
-he idea of bringing her along was that it was definitely not the plan. It was therefore insurance against a double-cross. If the cross was against me, this might confuse things and delay the moment of truth. If the cross was against the woman, I could always kill her later. But I had the feeling that I didn’t want to do that. So maybe I was double-crossing the person or persons who had planned a double-cross on the woman. That felt right too. Either way, I was mostly sure I doing the right thing by bringing her along.</p>
+<hr>
+<p>The idea of bringing her along was that it was definitely not the plan. It was therefore insurance against a double-cross. If the cross was against me, this might confuse things and delay the moment of truth. If the cross was against the woman, I could always kill her later. But I had the feeling that I didn’t want to do that. So maybe I was double-crossing the person or persons who had planned a double-cross on the woman. That felt right too. Either way, I was mostly sure I doing the right thing by bringing her along.</p>
 <p>I kept the gun jammed in the small of her back, unprofessionally close to keep it hidden. If she had been a ninja she could have taken it away from me, but either she wasn’t or she was playing a very deep game.</p>
 <p>The downstairs lobby was full of people now. I tried to spot the security guard, but there were too many bodies in the way. Despite my friendly feelings towards him and my sense that he felt the same way about me, I was obscurely relieved that he was not visible. I nudged the woman forward, decided that I did not, after all, want to see the security guard right now, or be seen by him. I nudged the woman into a small crowd that was heading for the exit.</p>
 <p>She hissed at me that if I shot her now there would be multiple witnesses and I would never get away. If she had been sure of that, she would simply have made a break for it, but she wanted to give me a chance to make a counter argument. I explained that the more witnesses there were the less likely it was anyone would see or do anything. She must have latched onto the certainty in my voice, or maybe I just phrased it in a convincing manner. Anyway she didn’t speak again until we were outside, when she said: “What now?”</p>
@@ -332,10 +338,8 @@ he idea of bringing her along was that it was definitely not the plan. It was th
 <p>“Yes. But must sleep.”</p>
 <p>“I’m afraid!”</p>
 <p>“Sooner to sleep… sooner to… awaken.”</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >I</glyph>
-
- was on the train again. There was nobody in the seats ahead, at least not in my carriage. I tried craning my neck to look behind, but it was too awkward. I had the feeling someone was back there, that he had been put there the same way I had, and that Black-Magic Martin was responsible.</p>
+<hr>
+<p>I was on the train again. There was nobody in the seats ahead, at least not in my carriage. I tried craning my neck to look behind, but it was too awkward. I had the feeling someone was back there, that he had been put there the same way I had, and that Black-Magic Martin was responsible.</p>
 <p>I stared out of the window. We were travelling through postcard-friendly countryside. The sun was shining on the hills in the distance. I strained my vision. Every now and then, I thought maybe I had caught a glimpse of the sea. Whenever that happened I felt a terrible pang in my heart.</p>
 <p>The train began to slow down. I could see a house, all glass and modernist angles. There were men getting out of two cars out front. They fanned out to surround the building. There was nothing else in sight, just green fields stretching into the distant haze. The train went into the house and stopped in the bedroom where a frightened woman was crumpled on the floor. My carriage came to rest in the middle of the bed. I got out and stood beside the woman. She looked up at me with relief blazing in her eyes. She leapt to her feet and hugged me. She shoved a knife into my hand. I looked through the walls and saw someone get off the rearmost carriage of the train outside. He was a little unsteady on his feet, like maybe his shoes didn’t fit properly. He was dressed as the security guard from the skyscraper. Maybe he was the security guard from the skyscraper. But that tiny fragment of the past no longer mattered.</p>
 <p>I looked down at the woman and said: “They’re here.”</p>
@@ -348,7 +352,6 @@ he idea of bringing her along was that it was definitely not the plan. It was th
 <p>The men who weren’t like me fired their guns in my direction. I wasn’t concerned about them. I only had eyes for the security guard. He frowned, as if he half recognised me. I went at him like a bullet. He pulled a knife out of his pocket and lowered his centre of gravity. The concept of gravity made me laugh. My mouth opened and showed him some of what was inside me, enough to make him hesitate. I used the extra time to close in and pin his arms to his sides. The knife blade grazed my thigh and opened another hole in me, a real one. It was only a tiny rent, but it was enough to get the process started. We struggled against each other. Because I was determined, because I knew what I wanted, and because I had gained some unexpected flexibility through the process of deflation, I managed to turn the knife blade into my opponent’s flesh. It was a quick, clean stab. He popped like a balloon.</p>
 <p>Deflating slowly, I turned my wrath on the woman’s enemies. The knife was a gun in my hand. I made holes in them and blood leaked out, more from some than others, but in all cases enough to quiet them down. I was more than half gone by then. I began to walk unsteadily back towards the house. The woman screamed when she saw me coming. I stopped where I was and used the last of my rapidly diminishing lung capacity to thank her.</p>
 <p>Child, insect, bacterium: without you, we would still be on that tiny train. Let none say the gods cannot feel gratitude, though it may be fleeting. Worry not, for we shall pay Black-Magic Martin a visit before we return to the void, and he will not be glad to see us.</p>
-<p><img src="images/Orbit.svg" alt="Orbit-lrg"></p>
 <p><em>Thanks for reading - but we&rsquo;d love feedback! Let us know what you think of <strong>Mad Gods &amp; Englishmen</strong> at <a href="https://bsky.app/profile/mythaxis.bsky.social">Bluesky</a>.</em></p>
 
     </div>
@@ -357,7 +360,7 @@ he idea of bringing her along was that it was definitely not the plan. It was th
   
   <footer class="story-footer">
     <div class="story-divider">
-      <img src="../images/roundels/fantasy-200.svg"
+      <img src="../images/roundels/MythaxisKnot.svg"
            class="story-divider__roundel roundel-animate"
            alt=""
            aria-hidden="true" />
@@ -403,14 +406,14 @@ he idea of bringing her along was that it was definitely not the plan. It was th
 
   
   <div class="story-nav-strip-wrap">
-  <nav class="story-nav-strip">
+  <nav class="story-nav-strip" aria-label="Story navigation">
     <div class="story-nav-strip__prev">
       
-      <a href="../issue-45/smart-contract.html" class="story-nav-strip__link" title="Smart Contract">
+      <a href="../issue-45/twelve-gauge-tune-up.html" class="story-nav-strip__link" title="Twelve Gauge Tune-up">
         <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M15 18l-6-6 6-6"/>
         </svg>
-        <span class="story-nav-strip__title">Smart Contract</span>
+        <span class="story-nav-strip__title">Twelve Gauge Tune-up</span>
       </a>
       
     </div>
@@ -421,8 +424,8 @@ he idea of bringing her along was that it was definitely not the plan. It was th
 
     <div class="story-nav-strip__next">
       
-      <a href="../issue-45/twelve-gauge-tune-up.html" class="story-nav-strip__link" title="Twelve Gauge Tune-up">
-        <span class="story-nav-strip__title">Twelve Gauge Tune-up</span>
+      <a href="../issue-45/smart-contract.html" class="story-nav-strip__link" title="Smart Contract">
+        <span class="story-nav-strip__title">Smart Contract</span>
         <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M9 18l6-6-6-6"/>
         </svg>

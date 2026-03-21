@@ -50,6 +50,7 @@
 </head>
 
   <body lang='en' class="is-preload theme-nebula2026">
+    <a href="#main" class="skip-to-content">Skip to content</a>
     
     <div id="wrapper">
       
@@ -63,7 +64,10 @@
       <span class="nebula-header__subhead">Winter 2025</span>
     </a>
     
-    <button class="nebula-header__logo" id="nebula-menu-trigger" aria-label="Open menu">Mythaxis</button>
+    <button class="nebula-header__logo" id="nebula-menu-trigger" aria-label="Open menu" aria-controls="nebula-nav-panel">
+      <span>Mythaxis</span>
+      <span class="nebula-header__logo-roundel" aria-hidden="true"></span>
+    </button>
   </div>
 </header>
 
@@ -71,16 +75,19 @@
       
 
 
-<button class="nebula-burger" id="nebula-burger" aria-label="Open menu" aria-expanded="false">
+<button class="nebula-burger" id="nebula-burger" aria-label="Open menu" aria-expanded="false" aria-controls="nebula-nav-panel">
   <span class="nebula-burger__line"></span>
   <span class="nebula-burger__line"></span>
   <span class="nebula-burger__line"></span>
 </button>
 
 
-<div class="nebula-nav-panel" id="nebula-nav-panel" aria-hidden="true">
+<div class="nebula-nav-panel" id="nebula-nav-panel" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Site navigation">
   <div class="nebula-nav-panel__content">
-    <div class="nebula-nav-panel__logotype">Mythaxis</div>
+    <div class="nebula-nav-panel__logotype">
+      <span>Mythaxis</span>
+      <span class="nebula-nav-panel__logotype-roundel" aria-hidden="true"></span>
+    </div>
     <ul class="nebula-nav-panel__links">
       
       
@@ -123,7 +130,7 @@
       
     </ul>
     <div class="nebula-nav-panel__roundel">
-      <img src="../images/roundels/orbit-100.svg" alt="" aria-hidden="true" />
+      <img src="../images/roundels/MythaxisTarget.svg" alt="" aria-hidden="true" />
     </div>
   </div>
 </div>
@@ -155,17 +162,11 @@
     <header class="nebula-page-header">
         <h1 class="nebula-page-title">Editorial</h1>
         
-        
         <div class="nebula-article-divider">
-            <svg width="60" height="2" viewBox="0 0 60 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="60" height="2" rx="1" fill="url(#nebula-gradient-page)"/>
-                <defs>
-                    <linearGradient id="nebula-gradient-page" x1="0" y1="1" x2="60" y2="1">
-                        <stop stop-color="#667eea"/>
-                        <stop offset="1" stop-color="#764ba2"/>
-                    </linearGradient>
-                </defs>
-            </svg>
+            <img src="../images/roundels/MythaxisTarget.svg"
+                 class="nebula-article-divider__roundel"
+                 alt=""
+                 aria-hidden="true" />
         </div>
     </header>
 
@@ -185,8 +186,10 @@
 <p>Anyway, that&rsquo;s enough for this supposed-to-be-vestigial editorial. Forgive me as I take a final moment of your time in order to thank: you, for reading our stories; our contributors, for writing them; Micah Hyatt, for his fantastic audio production efforts; and Marty Steer, without whose work behind the scenes <em>Mythaxis</em> would long since have become a nostalgic memory.</p>
 <h3 id="i-wish-you-all-a-happy-new-year">I wish you all a <em>Happy New Year!</em></h3>
 
-    </div><div class="story-divider">
-      <img src="../images/roundels/orbit-200.svg"
+    </div>
+
+    <div class="story-divider">
+      <img src="../images/roundels/MythaxisIcon.svg"
            class="story-divider__roundel roundel-animate"
            alt=""
            aria-hidden="true" />

@@ -50,6 +50,7 @@
 </head>
 
   <body lang='en' class="is-preload theme-nebula2026">
+    <a href="#main" class="skip-to-content">Skip to content</a>
     
     <div id="wrapper">
       
@@ -63,7 +64,10 @@
       <span class="nebula-header__subhead">Winter 2025</span>
     </a>
     
-    <button class="nebula-header__logo" id="nebula-menu-trigger" aria-label="Open menu">Mythaxis</button>
+    <button class="nebula-header__logo" id="nebula-menu-trigger" aria-label="Open menu" aria-controls="nebula-nav-panel">
+      <span>Mythaxis</span>
+      <span class="nebula-header__logo-roundel" aria-hidden="true"></span>
+    </button>
   </div>
 </header>
 
@@ -71,16 +75,19 @@
       
 
 
-<button class="nebula-burger" id="nebula-burger" aria-label="Open menu" aria-expanded="false">
+<button class="nebula-burger" id="nebula-burger" aria-label="Open menu" aria-expanded="false" aria-controls="nebula-nav-panel">
   <span class="nebula-burger__line"></span>
   <span class="nebula-burger__line"></span>
   <span class="nebula-burger__line"></span>
 </button>
 
 
-<div class="nebula-nav-panel" id="nebula-nav-panel" aria-hidden="true">
+<div class="nebula-nav-panel" id="nebula-nav-panel" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Site navigation">
   <div class="nebula-nav-panel__content">
-    <div class="nebula-nav-panel__logotype">Mythaxis</div>
+    <div class="nebula-nav-panel__logotype">
+      <span>Mythaxis</span>
+      <span class="nebula-nav-panel__logotype-roundel" aria-hidden="true"></span>
+    </div>
     <ul class="nebula-nav-panel__links">
       
       
@@ -123,7 +130,7 @@
       
     </ul>
     <div class="nebula-nav-panel__roundel">
-      <img src="../images/roundels/orbit-100.svg" alt="" aria-hidden="true" />
+      <img src="../images/roundels/MythaxisTarget.svg" alt="" aria-hidden="true" />
     </div>
   </div>
 </div>
@@ -135,7 +142,7 @@
 
       
       <div id="main">
-        <article class="nebula2026-story-single" data-chapter-marker="orbit" data-genre="orbit">
+        <article class="nebula2026-story-single" data-chapter-marker="MythaxisTarget" data-genre="MythaxisTarget">
 
   
   <header class="story-header" id="story-header">
@@ -197,6 +204,9 @@
     </div>
     
     <div class="story-header-minimal__content">
+      <div class="story-header-minimal__logotype">
+        <img src="../images/roundels/MythaxisTarget.svg" class="story-header-minimal__issue-roundel" alt="" aria-hidden="true" />
+      </div>
       <div class="story-header-minimal__info">
         <h2 class="story-header-minimal__title">The Witness</h2>
         <span class="story-header-minimal__author">
@@ -209,7 +219,7 @@
   
   
   <div class="nebula-audio-player">
-    <audio controls>
+    <audio controls aria-label="Listen to The Witness">
       <source src="https://github.com/mythaxis/mythaxis.github.io/releases/download/i44/1.The.Witness.mp3" type="audio/mpeg">
       Your browser does not support the audio tag.
     </audio>
@@ -359,7 +369,7 @@ ach told me Jeremy read about this place on the web: an old wastewater disposal 
   
   <footer class="story-footer">
     <div class="story-divider">
-      <img src="../images/roundels/orbit-200.svg"
+      <img src="../images/roundels/MythaxisTarget.svg"
            class="story-divider__roundel roundel-animate"
            alt=""
            aria-hidden="true" />
@@ -405,15 +415,8 @@ ach told me Jeremy read about this place on the web: an old wastewater disposal 
 
   
   <div class="story-nav-strip-wrap">
-  <nav class="story-nav-strip">
+  <nav class="story-nav-strip" aria-label="Story navigation">
     <div class="story-nav-strip__prev">
-      
-      <a href="../issue-44/shooter.html" class="story-nav-strip__link" title="Shooter">
-        <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M15 18l-6-6 6-6"/>
-        </svg>
-        <span class="story-nav-strip__title">Shooter</span>
-      </a>
       
     </div>
 
@@ -422,6 +425,13 @@ ach told me Jeremy read about this place on the web: an old wastewater disposal 
     </a>
 
     <div class="story-nav-strip__next">
+      
+      <a href="../issue-44/shooter.html" class="story-nav-strip__link" title="Shooter">
+        <span class="story-nav-strip__title">Shooter</span>
+        <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M9 18l6-6-6-6"/>
+        </svg>
+      </a>
       
     </div>
   </nav>

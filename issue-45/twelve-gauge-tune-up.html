@@ -23,8 +23,8 @@
 
 .theme-nebula2026 {
     
-    --color-primary: #5a3d6e;
-    --color-secondary: #a8765c;
+    --color-primary: #39e01b;
+    --color-secondary: #e75c10;
     
 }
 
@@ -53,6 +53,7 @@
 </head>
 
   <body lang='en' class="is-preload theme-nebula2026">
+    <a href="#main" class="skip-to-content">Skip to content</a>
     
     <div id="wrapper">
       
@@ -66,7 +67,10 @@
       <span class="nebula-header__subhead">Spring 2026</span>
     </a>
     
-    <button class="nebula-header__logo" id="nebula-menu-trigger" aria-label="Open menu">Mythaxis</button>
+    <button class="nebula-header__logo" id="nebula-menu-trigger" aria-label="Open menu" aria-controls="nebula-nav-panel">
+      <span>Mythaxis</span>
+      <span class="nebula-header__logo-roundel" aria-hidden="true"></span>
+    </button>
   </div>
 </header>
 
@@ -74,16 +78,19 @@
       
 
 
-<button class="nebula-burger" id="nebula-burger" aria-label="Open menu" aria-expanded="false">
+<button class="nebula-burger" id="nebula-burger" aria-label="Open menu" aria-expanded="false" aria-controls="nebula-nav-panel">
   <span class="nebula-burger__line"></span>
   <span class="nebula-burger__line"></span>
   <span class="nebula-burger__line"></span>
 </button>
 
 
-<div class="nebula-nav-panel" id="nebula-nav-panel" aria-hidden="true">
+<div class="nebula-nav-panel" id="nebula-nav-panel" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Site navigation">
   <div class="nebula-nav-panel__content">
-    <div class="nebula-nav-panel__logotype">Mythaxis</div>
+    <div class="nebula-nav-panel__logotype">
+      <span>Mythaxis</span>
+      <span class="nebula-nav-panel__logotype-roundel" aria-hidden="true"></span>
+    </div>
     <ul class="nebula-nav-panel__links">
       
       
@@ -126,7 +133,7 @@
       
     </ul>
     <div class="nebula-nav-panel__roundel">
-      <img src="../images/roundels/fantasy-100.svg" alt="" aria-hidden="true" />
+      <img src="../images/roundels/MythaxisKnot.svg" alt="" aria-hidden="true" />
     </div>
   </div>
 </div>
@@ -138,7 +145,7 @@
 
       
       <div id="main">
-        <article class="nebula2026-story-single" data-chapter-marker="orbit" data-genre="orbit">
+        <article class="nebula2026-story-single" data-chapter-marker="MythaxisTarget" data-genre="MythaxisTarget">
 
   
   <header class="story-header" id="story-header">
@@ -200,6 +207,9 @@
     </div>
     
     <div class="story-header-minimal__content">
+      <div class="story-header-minimal__logotype">
+        <img src="../images/roundels/MythaxisKnot.svg" class="story-header-minimal__issue-roundel" alt="" aria-hidden="true" />
+      </div>
       <div class="story-header-minimal__info">
         <h2 class="story-header-minimal__title">Twelve Gauge Tune-up</h2>
         <span class="story-header-minimal__author">
@@ -212,7 +222,7 @@
   
   
   <div class="nebula-audio-player">
-    <audio controls>
+    <audio controls aria-label="Listen to Twelve Gauge Tune-up">
       <source src="https://github.com/mythaxis/mythaxis.github.io/releases/download/i44/3.Twelve.Gauge.Tune-up.mp3" type="audio/mpeg">
       Your browser does not support the audio tag.
     </audio>
@@ -222,9 +232,7 @@
   
   <div class="story-reading">
     <div class="story-reading__container nebula-article-content">
-      <p><glyph >D</glyph>
-
-aryl Fox was cleaning his father’s guns at the kitchen table when Arnie Anderson wandered into the house to see if he wanted to play in the woods across the road. At thirteen, Daryl thought they were getting too old for such childish activity, but didn’t say so to Arnie. Just told him no on account of his being busy.</p>
+      <p>Daryl Fox was cleaning his father’s guns at the kitchen table when Arnie Anderson wandered into the house to see if he wanted to play in the woods across the road. At thirteen, Daryl thought they were getting too old for such childish activity, but didn’t say so to Arnie. Just told him no on account of his being busy.</p>
 <p>“Dad says if I get these rifles oiled up,” he said, “he’ll let me help sight the scopes for hunting season.”</p>
 <p>“If I pitch in,” Arnie said, “can I shoot too?”</p>
 <p>“Know how to oil a gun?”</p>
@@ -267,10 +275,8 @@ aryl Fox was cleaning his father’s guns at the kitchen table when Arnie Anders
 <p>“Your dad did this to me a long time ago,” Terry said. “Got some nerve damage, but it ain’t bad.”</p>
 <p>“Hope you deserved it,” Daryl said.</p>
 <p>“I did.” He glanced at Daryl’s pants pocket. “Still making up for it, in a way.”</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >T</glyph>
-
-hat night, when Thaddeus came home and Uncle Elmore didn’t, Daryl gave him the money and told him about Terry’s visit.</p>
+<hr>
+<p>That night, when Thaddeus came home and Uncle Elmore didn’t, Daryl gave him the money and told him about Terry’s visit.</p>
 <p>“Five hundred bucks,” his dad said once he counted the money. Daryl couldn’t tell if he was shocked, disappointed, or what. He set the money on the table in front of him and smoked his cigarette in deep contemplation.</p>
 <p>“He asked about Michael,” Daryl said.</p>
 <p>“So?”</p>
@@ -306,10 +312,8 @@ hat night, when Thaddeus came home and Uncle Elmore didn’t, Daryl gave him the
 <p>“You must be dumb if you only figured that out now,” Thaddeus said. “And another thing. Don’t ever let that weasel inside ever again. If you didn’t just give me this money, I’d have a mind to search the house to see what that slippery weasel stole.”</p>
 <p>“Like I ever let anyone in,” Daryl said, rolling his eyes.</p>
 <p>Thaddeus puffed his cigarette and exhaled, shaking his head. “Fuckin’ Grand Central Station.”</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >W</glyph>
-
-hen Uncle Elmore came through the next day, and Daryl and Arnie were at the guns again, Daryl didn’t say a word, but he’d forgotten to tell Arnie not to say anything. First thing out of Arnie’s mouth, when Elmore came in shaking off last night’s drunk, was, “Yo, Rip, did you get that money the guy dropped off for you?”</p>
+<hr>
+<p>When Uncle Elmore came through the next day, and Daryl and Arnie were at the guns again, Daryl didn’t say a word, but he’d forgotten to tell Arnie not to say anything. First thing out of Arnie’s mouth, when Elmore came in shaking off last night’s drunk, was, “Yo, Rip, did you get that money the guy dropped off for you?”</p>
 <p>Uncle Elmore stared at Arnie as if he’d just heard a monkey talk, then said to Thaddeus, who had just waddled into the kitchen, “What money is this boy talking about, Rooster?”</p>
 <p>“Beats me,” Thaddeus said. “Kid’s dumber than a sack of screws.”</p>
 <p>“The five hundred dollars,” Arnie said, frowning. “From your friend Terry.”</p>
@@ -337,10 +341,8 @@ hen Uncle Elmore came through the next day, and Daryl and Arnie were at the guns
 <p>His father and uncle remained quiet, looking at each other with a <em>jig-is-up</em> expression.</p>
 <p>Daryl gasped and said, “Please don’t tell me that short sumbitch is my old man. Christ, am I done growing? Is this as tall as I’m gonna get?”</p>
 <p>“Naw,” Thaddeus said. “He ain’t your daddy. He’s Michael’s.”</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >“D</glyph>
-
-oes your mom know about this?”</p>
+<hr>
+<p>“Does your mom know about this?”</p>
 <p>“I think my mother would notice if she did or didn’t birth a goddamn baby, Arnie.”</p>
 <p>Daryl and Arnie were in the backyard, shooting at empty beer bottles with a .22 long rifle. That caliber of bullets being hard to come by nowadays, and with Daryl’s parents and Uncle Elmore’s case-a-day diet, the boys had scrounged up more empties than ammunition. They were discussing what had gone down yesterday after Arnie fled the house, Daryl’s brother Michael not being his brother by blood.</p>
 <p>“So, this Terry guy comes by to give your uncle money,” Arnie said, “because he thinks your uncle has been raising Michael?”</p>
@@ -370,10 +372,8 @@ oes your mom know about this?”</p>
 <p>“Okay, so we find Michael, then we go to wherever Terry lives. How are we gonna do all that?”</p>
 <p>“Piece of cake. Trust me.”</p>
 <p>“No, Daryl. I mean, we’re thirteen years old. How in the hell are we gonna get to where we’re going?”</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >D</glyph>
-
-aryl’s buddy Hollister had a brother who was old enough to drink and drive, but once Daryl told him why he needed a ride, he demanded a cut of the extortion money. Russ – that’s Hollister’s brother – was to be like a getaway driver, only he was to be their <em>get-to</em> driver. Then Daryl had to agree to give Hollister a piece of the take, too, since he was the one who had organized his brother’s participation.</p>
+<hr>
+<p>Daryl’s buddy Hollister had a brother who was old enough to drink and drive, but once Daryl told him why he needed a ride, he demanded a cut of the extortion money. Russ – that’s Hollister’s brother – was to be like a getaway driver, only he was to be their <em>get-to</em> driver. Then Daryl had to agree to give Hollister a piece of the take, too, since he was the one who had organized his brother’s participation.</p>
 <p>Finding Michael was the easy part. Turned out he wasn’t in hiding; just didn’t care to come around. Daryl’s mom had his address, and all he had to do was ask for it. Locating Terry was another story, but that’s where Russ came in. He had a friend who worked in County Corrections, got him to look up Terry’s arrest record, and found his address off his parole documents. Discovered Terry was a fifteen-minute drive away, living in Lot #17 at the trailer park the next town over. Bing-bang-boom, the plan was unfolding, and they were set to go on the fourth day after Terry’s first appearance.</p>
 <p>Midmorning, Daryl and Arnie waited on the porch for their ride to pull up. Only Hollister and Russ never showed, and when Daryl rang their house, no one answered.</p>
 <p>After waiting inside by the phone awhile, in case they called back, Arnie said, “Should we just go without them?”</p>
@@ -406,10 +406,8 @@ aryl’s buddy Hollister had a brother who was old enough to drink and drive, bu
 <p>“You wanna know, ask him.”</p>
 <p>“I did. He said he doesn’t remember.”</p>
 <p>Terry’s face turned sour. “I changed my mind. Finish your beers outside.”</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >C</glyph>
-
-lose to two hours of daylight left, the boys walked most of the way home with their thumbs sticking up. Walked the shoulder of the road a good forty-five minutes before someone picked them up, and by that time they were two minutes from Arnie’s and another three from Daryl’s.</p>
+<hr>
+<p>Close to two hours of daylight left, the boys walked most of the way home with their thumbs sticking up. Walked the shoulder of the road a good forty-five minutes before someone picked them up, and by that time they were two minutes from Arnie’s and another three from Daryl’s.</p>
 <p>Daryl’s legs were sore and jelly-like when he climbed up the back porch and went into the house, for once finding nobody inside. Then he heard the gunfire beyond the backyard, along with the raucous, drunken laughter of his father Rooster, and his uncle Rip. They had likely gone out to sight their rifles – without Daryl no less – and had gotten drunk and kept on shooting at nothing in particular until their own sights had gone crossed.</p>
 <p>Daryl was too tired to care about missing out on the shooting. His clothes were grimy and sweaty and stuck to his body like he’d swam in tar, and he smelled like he rolled in a pigpen. He took a bath with lukewarm water, and by the time he finished and dried off and dressed, the Fox brothers had made their way inside, drinking in the kitchen. Uncle Elmore was sitting at the table, cackling, and Thaddeus was leaning against the brick fireplace with a shotgun resting on his shoulder, eyes shut while laughing. He was swaying back and forth as if the brick wall was trying to push him away, but as soon as he saw Daryl, he straightened.</p>
 <p>“Guess who called to say hi?”</p>
@@ -423,10 +421,8 @@ lose to two hours of daylight left, the boys walked most of the way home with th
 <p>“Know anything about that?” Thaddeus asked.</p>
 <p>He sure did, and he told him so. Told him everything, his and Arnie’s plan, Hollister and his brother screwing them over. Though Daryl could not fathom what the outcome Hollister and Russ had had in mind when phoning Michael, he presumed it was to get Michael to do exactly what he did: call the house. Hollister and Russ couldn’t put the squeeze on Terry, so they tried to scheme another way. That way being… putting the squeeze on Thaddeus Fox.</p>
 <p>When Daryl finished spilling his guts to his dad, he expected a whooping, maybe a few belts across the ass with the shotgun he was clutching. Throw a beer bottle at his head or something – you know, the usual. Instead, Thaddeus shut his eyes and smirked, went back to swaying for a moment, and said, “Fire up the truck, Daryl. We got a house call of our own to make.”</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >D</glyph>
-
-aryl told his father where Hollister and Russ lived, and five minutes into the drive, he realized they weren’t headed to where he’d thought. Ten minutes after that, when his dad stopped at Terry’s trailer, he said, “What are we doing here?”</p>
+<hr>
+<p>Daryl told his father where Hollister and Russ lived, and five minutes into the drive, he realized they weren’t headed to where he’d thought. Ten minutes after that, when his dad stopped at Terry’s trailer, he said, “What are we doing here?”</p>
 <p>Thaddeus opened his door, got out, and nabbed the twelve gauge off the rack behind the seats. “Teachin’,” he said.</p>
 <p>Daryl followed his dad to the door, thankful the shotgun hadn’t been loaded but also aware that his father was. Thaddeus knocked on the screen door, and when a shadow stepped in front of the light from inside, he speared the butt of the shotgun through it. It tore through the screen like a knife plunging into flesh, the solid stock connecting with the silhouetted face, and Terry reared back with a muffled yelp.</p>
 <p>Thaddeus opened the busted door, held it for Daryl, and they moved inside.</p>
@@ -440,10 +436,8 @@ aryl told his father where Hollister and Russ lived, and five minutes into the d
 <p>“How else am I supposed to teach you?” Thaddeus said. He raised a leg and nudged a boot into the little man’s chest. Wasn’t a hard kick, but enough to tip him back so he lay flat on the carpeted floor.</p>
 <p>As Thaddeus took a wide stance and stood over him, Terry shielded his face with his trembling nerve-damaged hands.</p>
 <p>“Terry, I ain’t gonna hurt your face. God already done enough damage to that. But I am gonna need you to put your hands on the floor. Same way as the last time.”</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >T</glyph>
-
-erry’s screams of agony were still echoing in Daryl’s ears when they were back in the truck. He couldn’t believe such girlish cries could emanate from a full-grown man. Couldn’t blame him one bit, though, for if Daryl had been on the receiving end of his father’s wrath – which he had been from time to time – he’d have yowled just the same.</p>
+<hr>
+<p>Terry’s screams of agony were still echoing in Daryl’s ears when they were back in the truck. He couldn’t believe such girlish cries could emanate from a full-grown man. Couldn’t blame him one bit, though, for if Daryl had been on the receiving end of his father’s wrath – which he had been from time to time – he’d have yowled just the same.</p>
 <p>Wasn’t only the sounds that had come from his mouth that Daryl kept playing over in his mind; it was the noise his hands made when his father jabbed the shotgun stock down on them like he was driving a posthole digger into the ground. The smacks and plops… the shattering and popping of the man’s fingers and knuckles…</p>
 <p>Daryl’s father hadn’t said a word since they left Terry’s till Daryl asked him why he broke Terry’s hands when he wasn’t the one who screwed him over.</p>
 <p>Thaddeus sparked a cigarette, kept his eyes on the road, and said, “First, ’cause he ran his mouth, asked questions about Michael, when he knew not to. Second, to show you what to do when someone goes behind your back like your so-called friends did to you. And third, that was me showing you what I’ll do to you if you ever mention anything to your brother. Understand?”</p>
@@ -461,7 +455,6 @@ erry’s screams of agony were still echoing in Daryl’s ears when they were ba
 <p>“I don’t know. One’s my age, but his brother’s big. He’s a grownup.”</p>
 <p>“You’ll need a hand, then.”</p>
 <p>“Hell, Dad, I might need two,” Daryl said, and shared a rare laugh with his father.</p>
-<p><img src="images/Orbit.svg" alt="Orbit-lrg"></p>
 <p><em>Thanks for reading - but we&rsquo;d love feedback! Let us know what you think of <strong>Twelve Gauge Tune-up</strong> at <a href="https://bsky.app/profile/mythaxis.bsky.social">Bluesky</a>.</em></p>
 
     </div>
@@ -470,7 +463,7 @@ erry’s screams of agony were still echoing in Daryl’s ears when they were ba
   
   <footer class="story-footer">
     <div class="story-divider">
-      <img src="../images/roundels/fantasy-200.svg"
+      <img src="../images/roundels/MythaxisKnot.svg"
            class="story-divider__roundel roundel-animate"
            alt=""
            aria-hidden="true" />
@@ -516,14 +509,14 @@ erry’s screams of agony were still echoing in Daryl’s ears when they were ba
 
   
   <div class="story-nav-strip-wrap">
-  <nav class="story-nav-strip">
+  <nav class="story-nav-strip" aria-label="Story navigation">
     <div class="story-nav-strip__prev">
       
-      <a href="../issue-45/mad-gods-and-englishmen.html" class="story-nav-strip__link" title="Mad Gods &amp; Englishmen">
+      <a href="../issue-45/shooter.html" class="story-nav-strip__link" title="Shooter">
         <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M15 18l-6-6 6-6"/>
         </svg>
-        <span class="story-nav-strip__title">Mad Gods &amp; Englishmen</span>
+        <span class="story-nav-strip__title">Shooter</span>
       </a>
       
     </div>
@@ -534,8 +527,8 @@ erry’s screams of agony were still echoing in Daryl’s ears when they were ba
 
     <div class="story-nav-strip__next">
       
-      <a href="../issue-45/shooter.html" class="story-nav-strip__link" title="Shooter">
-        <span class="story-nav-strip__title">Shooter</span>
+      <a href="../issue-45/mad-gods-and-englishmen.html" class="story-nav-strip__link" title="Mad Gods &amp; Englishmen">
+        <span class="story-nav-strip__title">Mad Gods &amp; Englishmen</span>
         <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M9 18l6-6-6-6"/>
         </svg>

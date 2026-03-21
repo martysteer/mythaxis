@@ -23,8 +23,8 @@
 
 .theme-nebula2026 {
     
-    --color-primary: #5a3d6e;
-    --color-secondary: #a8765c;
+    --color-primary: #39e01b;
+    --color-secondary: #e75c10;
     
 }
 
@@ -53,6 +53,7 @@
 </head>
 
   <body lang='en' class="is-preload theme-nebula2026">
+    <a href="#main" class="skip-to-content">Skip to content</a>
     
     <div id="wrapper">
       
@@ -66,7 +67,10 @@
       <span class="nebula-header__subhead">Spring 2026</span>
     </a>
     
-    <button class="nebula-header__logo" id="nebula-menu-trigger" aria-label="Open menu">Mythaxis</button>
+    <button class="nebula-header__logo" id="nebula-menu-trigger" aria-label="Open menu" aria-controls="nebula-nav-panel">
+      <span>Mythaxis</span>
+      <span class="nebula-header__logo-roundel" aria-hidden="true"></span>
+    </button>
   </div>
 </header>
 
@@ -74,16 +78,19 @@
       
 
 
-<button class="nebula-burger" id="nebula-burger" aria-label="Open menu" aria-expanded="false">
+<button class="nebula-burger" id="nebula-burger" aria-label="Open menu" aria-expanded="false" aria-controls="nebula-nav-panel">
   <span class="nebula-burger__line"></span>
   <span class="nebula-burger__line"></span>
   <span class="nebula-burger__line"></span>
 </button>
 
 
-<div class="nebula-nav-panel" id="nebula-nav-panel" aria-hidden="true">
+<div class="nebula-nav-panel" id="nebula-nav-panel" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Site navigation">
   <div class="nebula-nav-panel__content">
-    <div class="nebula-nav-panel__logotype">Mythaxis</div>
+    <div class="nebula-nav-panel__logotype">
+      <span>Mythaxis</span>
+      <span class="nebula-nav-panel__logotype-roundel" aria-hidden="true"></span>
+    </div>
     <ul class="nebula-nav-panel__links">
       
       
@@ -126,7 +133,7 @@
       
     </ul>
     <div class="nebula-nav-panel__roundel">
-      <img src="../images/roundels/fantasy-100.svg" alt="" aria-hidden="true" />
+      <img src="../images/roundels/MythaxisKnot.svg" alt="" aria-hidden="true" />
     </div>
   </div>
 </div>
@@ -138,7 +145,7 @@
 
       
       <div id="main">
-        <article class="nebula2026-story-single" data-chapter-marker="orbit" data-genre="orbit">
+        <article class="nebula2026-story-single" data-chapter-marker="MythaxisTarget" data-genre="MythaxisTarget">
 
   
   <header class="story-header" id="story-header">
@@ -200,6 +207,9 @@
     </div>
     
     <div class="story-header-minimal__content">
+      <div class="story-header-minimal__logotype">
+        <img src="../images/roundels/MythaxisKnot.svg" class="story-header-minimal__issue-roundel" alt="" aria-hidden="true" />
+      </div>
       <div class="story-header-minimal__info">
         <h2 class="story-header-minimal__title">The Witness</h2>
         <span class="story-header-minimal__author">
@@ -212,7 +222,7 @@
   
   
   <div class="nebula-audio-player">
-    <audio controls>
+    <audio controls aria-label="Listen to The Witness">
       <source src="https://github.com/mythaxis/mythaxis.github.io/releases/download/i44/1.The.Witness.mp3" type="audio/mpeg">
       Your browser does not support the audio tag.
     </audio>
@@ -222,9 +232,7 @@
   
   <div class="story-reading">
     <div class="story-reading__container nebula-article-content">
-      <p><glyph >I</glyph>
-
-’ll tell you what happened in the summer of ’99, when the end of the world seemed, if not yet certain, a distinct possibility. Let’s start with that mid-August thunderstorm. I’m on my porch when it slithers in during the evening. The sun is still descending, the horizon pink and purple, but gray clouds crawl from the north, slowly but steadily winning the war against the setting sun. The news promised a nasty thunderstorm would make its way across northern Ohio and, lo and behold, here it comes.</p>
+      <p>I’ll tell you what happened in the summer of ’99, when the end of the world seemed, if not yet certain, a distinct possibility. Let’s start with that mid-August thunderstorm. I’m on my porch when it slithers in during the evening. The sun is still descending, the horizon pink and purple, but gray clouds crawl from the north, slowly but steadily winning the war against the setting sun. The news promised a nasty thunderstorm would make its way across northern Ohio and, lo and behold, here it comes.</p>
 <p>I rock on the porch chair, listening to it creak. It’s old, purchased almost twenty years ago, just before I was born, when my parents bought this house. The chair would probably break if I weighed a normal amount for an eighteen-year-old man; however, I’m twenty pounds under, a stick of a person.</p>
 <p>As I sit, the street turns still in anticipation of the weather. The insects quiet, the birds retreat. I enjoy this rare moment of silence in my increasingly chaotic life. Graduating high school turned out to be less of an accomplishment and more of an onslaught of decisions, each one feeling more life-altering than the last. I try to convince myself I’ll be on the porch forever, that I can stretch out this one minute and hide in it for years. There’d be no anxiety since there’d be nothing new, just a permanent, comforting stillness.</p>
 <p>The fantasy ends when the wind smacks my face. The leaves on the trees turn upward, showing their greener undersides, and the gray clouds coalesce into mountains. Muffled thunder sounds in the distance, promising a memorable next hour. The rain trickles, then turns steady, then ferocious. My porch is deep enough that I’m mostly protected from the rain, although some drops manage to make it onto my lap. The scent overpowers, that fresh, wet smell.</p>
@@ -234,10 +242,8 @@
 <p>As the rain slows, he leaves. Or, if I’m honest, fades away, as if he could not quite manifest into this world.</p>
 <p>Then again, my imagination has always been termed “overactive”. In bed that night, I turn it over in my mind. Maybe there was no man there. Or maybe he was a normal man. Or maybe it was my mind telling me of danger to come, that what will happen next is already written. Maybe in the chair, in that moment, a part of me already knew. Knew about the violence to come.</p>
 <p>Knew about the end of the world.</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >I</glyph>
-
- don’t know how to drive. Zach does. Normally, that’s fine. In fact, last summer when he got his license, we drove all over Ohio, talking about everything from senior year dreams to what the new <em>Star Wars</em> movie would be about. Some of my best memories are from that summer, when we drove and drove, every road a promise of something new. The problem now? It’s not just Zach and me anymore. Zach has a new friend, one who doesn’t like me much: Jeremy. He calls me Twinkle as a “joke”. Sometimes something worse. Zach tells me Jeremy doesn’t mean anything by it. I know Jeremy most certainly does.</p>
+<hr>
+<p>I don’t know how to drive. Zach does. Normally, that’s fine. In fact, last summer when he got his license, we drove all over Ohio, talking about everything from senior year dreams to what the new <em>Star Wars</em> movie would be about. Some of my best memories are from that summer, when we drove and drove, every road a promise of something new. The problem now? It’s not just Zach and me anymore. Zach has a new friend, one who doesn’t like me much: Jeremy. He calls me Twinkle as a “joke”. Sometimes something worse. Zach tells me Jeremy doesn’t mean anything by it. I know Jeremy most certainly does.</p>
 <p>I’m in the backseat of Zach’s beat up Toyota, slouched down, listening to Jeremy and Zach talk as we race down an empty road. 2pm on a Monday isn’t exactly rush hour.</p>
 <p>“What do you think?” Jeremy asks. Aggression coats the question. Takes me a moment to realize the question is for me. I clear my throat, sit up a bit, try to run back the last thirty seconds so I can recall what he said. When I realize that’s not gonna work, I settle on, “What do you mean?”</p>
 <p>“About who’s doing the murders?” he asks, turning to look at me. He has a shaved head and the nastiest yet brightest blue eyes. His jaw is an almost perfect square, and his nose is crooked from a break. Who on Earth had the bravery to punch him, I don’t know, but I’d love to shake their hand.</p>
@@ -259,10 +265,8 @@
 <p>“She hangs out with too many other men. Did it again last week, hung out with two other guys after work. Just friends, she says. Bullshit. She’s doing it to provoke me.” I risk a look. Jeremy has his left hand on the center console, grabbing it tight, and I can see the left side of his face as he stares at Zach. “It was the last straw. I’m not going to be with someone so disrespectful.” His eyes are wide, his nostrils flared, and he’s biting down on his bottom lip so hard that there should be blood.</p>
 <p>I shrink back into my seat. The contempt in his tone suffocates me. It makes me not want to be a man, not want to be anything like him. I get this awful image of Jeremy pressing a red button again and again and again, ending the world a thousand times over and not caring because the rage is all that matters to him.</p>
 <p>Zach accelerates. We’re on a trip to nowhere. Jeremy is still ranting about Amber. Didn’t she know how good she had it? Doesn’t she understand respect? Whole world is rotten, according to Jeremy. Whole damn world has it coming, in fact.</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >2</glyph>
-
-am and Sandra and I are in her car. We’re parked outside the mall. She leans towards me, but not so much that it’s an obvious romantic move. Just enough to make me question if she wants me to lean in towards her. Are we friends? Are we in denial about wanting more? I don’t know. It doesn’t help that I keep looking out at the pitch-black parking lot, expecting to see the silhouette of the man from the thunderstorm. This seems like his time, an hour when he can slip into our reality before having to retreat to his own.</p>
+<hr>
+<p>2am and Sandra and I are in her car. We’re parked outside the mall. She leans towards me, but not so much that it’s an obvious romantic move. Just enough to make me question if she wants me to lean in towards her. Are we friends? Are we in denial about wanting more? I don’t know. It doesn’t help that I keep looking out at the pitch-black parking lot, expecting to see the silhouette of the man from the thunderstorm. This seems like his time, an hour when he can slip into our reality before having to retreat to his own.</p>
 <p>“If Jeremy sticks around, then you have to stop hanging out with Zach,” Sandra tells me. “Trust me.”</p>
 <p>Talk of Jeremy unnerves me almost as much as the thought of that man returning. “Did Amber tell you he broke up with her?” I look at Sandra’s face, although only briefly, before looking back out at the parking lot. I didn’t want to stare, make it weird. She’s pretty. Warm brown eyes, light brown hair. I should be attracted to her, and it makes me uneasy that I’m not. There’s nothing wrong with her. What’s wrong with me?</p>
 <p>“Good,” Sandra says with urgency. “She’s better off. I’ve heard it from so many girls during senior year, how he’s, well, I was going to say bad news but that makes me sound like I’m from the ’50s. He’s a monster, basically.”</p>
@@ -276,10 +280,8 @@ am and Sandra and I are in her car. We’re parked outside the mall. She leans t
 <p>“Do you want to kiss me? It doesn’t have to mean anything.”</p>
 <p>She’s always been blunt, but this is the first time she’s asked about a kiss. Is she unsure? I am. I always thought when it comes to moments like this, we’re sure, that it’s the surest thing in the world. I don’t think I should say no to her, so we start to kiss, my lips around her top lip. I place my hand on her shoulder, and she puts hers on the back of my head. I keep kissing her, slowly, not feeling anything and also feeling everything.</p>
 <p>I keep my eyes shut tight as we do it. If anyone is out there watching, I don’t want to know.</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >3</glyph>
-
-am. We’re still in the parking lot. We stopped making out, laughed awkwardly about it, sat silently, and then brought up other things. We talked about graduation. We talked about college.</p>
+<hr>
+<p>3am. We’re still in the parking lot. We stopped making out, laughed awkwardly about it, sat silently, and then brought up other things. We talked about graduation. We talked about college.</p>
 <p>Now, I’m ready to go home, but I don’t want to say so, don’t want to offend her. I know I let her down. I think she might be hurt that I asked for nothing more, fine with ending our timid intimacy.</p>
 <p>“I saw something weird the other day,” I tell her. I’m partially trying to fill the silence, and partially trying to put to rest the paranoia I’ve felt lately. Shouldn’t saying my thoughts aloud drain them of power? The grief therapist told me that. “During that thunderstorm last week, I thought I saw a person at the end of my driveway. But it was like he was only partly there.” I eye for the thousandth time the parking lot that hides in darkness. “Things have just felt so weird this summer. I wonder if there’s something wrong with my brain. They say it’s this age when people develop schizophrenia or other issues.”</p>
 <p>“You’re not crazy,” she quickly assures me. Does she do so because she believes it or because she doesn’t want to fathom being in a car with a crazy guy in the middle of the night? “It does feel weird. Sometimes, I think it’s because the new millennium is around the corner.”</p>
@@ -288,18 +290,14 @@ am. We’re still in the parking lot. We stopped making out, laughed awkwardly a
 <p>“Why?”</p>
 <p>“Because no one ever notices what goes on in towns like ours.” She quiets, then softly adds, “So no one will notice what’s coming until it’s too late.”</p>
 <p>I look outside the car, out at the night. We seem so alone, but perhaps not alone enough.</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >I</glyph>
-
-’m out for my nighttime jog. There’s enough humidity that you can chew on it. My run takes me along the community park. At this hour, the poorly kept baseball field lies empty, the pool is devoid of people, nothing stirs in the playground. It’s just me out. Those younger than me stay in this summer, although no one states why. Those who can drive, which is most people my age, head for busier areas.</p>
+<hr>
+<p>I’m out for my nighttime jog. There’s enough humidity that you can chew on it. My run takes me along the community park. At this hour, the poorly kept baseball field lies empty, the pool is devoid of people, nothing stirs in the playground. It’s just me out. Those younger than me stay in this summer, although no one states why. Those who can drive, which is most people my age, head for busier areas.</p>
 <p>I usually feel refreshed by spending some nights outside alone, where you can have an honest conversation with your inner self. Not tonight, though. I’m tired, my legs not so much aching as drained. I slow, catching my breath and glance across the street. Jeremy’s house is there. I knew it would be, I’ve always known he lived across from the park. I didn’t intend to come this way just to see it, but I also didn’t plan to avoid it, either.</p>
 <p>The house sits but not silently. Its two top windows are dark and empty. Its double doors are shut, yet a sound emanates from them, one that I hear in my mind more than in my ears. This is a house of bad things, a house full of memories people have tried to banish, a house infected with despair, a house where screams have been much more common than laughs.</p>
 <p>I wanted to be a normal house, Jeremy’s home says. I wanted to be like all the others. But do not come in here. If you do, I cannot let you out.</p>
 <p>I resume my run; the house continues to speak, but I go faster and faster, its words merging into sad mutterings.</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >T</glyph>
-
-wo nights later, the phone rings at 11:15pm. I’m well aware of the time because Letterman comes on soon, and I always stay up for Letterman in the summers. My mom does, too, if she’s not tired. I tell her I’ll get the phone, figuring it’ll be a wrong number, some confused drunk. I go into the kitchen, snatch the phone off the holder, and say, “Yeah, hello?”</p>
+<hr>
+<p>Two nights later, the phone rings at 11:15pm. I’m well aware of the time because Letterman comes on soon, and I always stay up for Letterman in the summers. My mom does, too, if she’s not tired. I tell her I’ll get the phone, figuring it’ll be a wrong number, some confused drunk. I go into the kitchen, snatch the phone off the holder, and say, “Yeah, hello?”</p>
 <p>There’s an echo, a sense that the speaker on the other end is in a vast room.</p>
 <p>“Hello?” I say again.</p>
 <p>The speaker clears his throat. His voice sounds deep but raspy. “I saw you outside the other night.” He clears his throat again. The static on the line intensifies, and I can only make out a few other words. “…you missed… but I’ll see you… and you’ll see where I come from… do to this world.”</p>
@@ -309,17 +307,13 @@ wo nights later, the phone rings at 11:15pm. I’m well aware of the time becaus
 <p>“Everything okay?” my mother calls from the living room.</p>
 <p>I put the phone back in the cradle. I have to make a decision. I could tell her about the call, about Jeremy, about how everyone knows something, somewhere, is wrong. Or I can pretend the call never happened. I can write it off as a drunken prank by some moron whose words had no true meaning. I can take the phone call and place it in a box in the back of my mind with other thoughts and experiences I don’t know how to grapple with.</p>
 <p>“Wrong number,” I shout back.</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >“I</glyph>
-
- know I said Jeremy isn’t coming, and it’s kinda true on a technicality. He won’t be in our car, but he’s going to meet us there. I didn’t mean to lie, but I know you don’t like him. He’s been a dick to you, I get that, but he wants to make peace, okay? He’s a tough guy to get to know, and he’ll be the first to admit that. We’ll all get along now. That’s good, right? That’s what we want.”</p>
+<hr>
+<p>“I know I said Jeremy isn’t coming, and it’s kinda true on a technicality. He won’t be in our car, but he’s going to meet us there. I didn’t mean to lie, but I know you don’t like him. He’s been a dick to you, I get that, but he wants to make peace, okay? He’s a tough guy to get to know, and he’ll be the first to admit that. We’ll all get along now. That’s good, right? That’s what we want.”</p>
 <p>As Zach tells me this, his grip on his steering wheel tighter than I’ve ever seen it, I realize he loves Jeremy. How can he love someone like that? I don’t know. I can’t know. No one other than Zach can, and maybe not even Zach.</p>
 <p>I don’t reply to him. We’re barreling down the highway, nearing our destination, and what’s coming next is inevitable. I know what Jeremy is. I know what he’s most likely been doing. It’s not about whether I’ll have to face something awful. No, that’s certain; even if I jumped out of this car, I’d somehow end up back within his vicinity.</p>
 <p>Hell, I almost tell Zach to hurry up.</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >Z</glyph>
-
-ach told me Jeremy read about this place on the web: an old wastewater disposal site that had long since been abandoned, but, due to some chemical issue, the trees around it had died. According to him, it’s quite the sight to behold. We’d visited a lot of places like this last summer, abandoned factories, empty homes, but Zach said this place will be better.</p>
+<hr>
+<p>Zach told me Jeremy read about this place on the web: an old wastewater disposal site that had long since been abandoned, but, due to some chemical issue, the trees around it had died. According to him, it’s quite the sight to behold. We’d visited a lot of places like this last summer, abandoned factories, empty homes, but Zach said this place will be better.</p>
 <p>When we pull up and step out of the car, I learn Zach wasn’t wrong. Dead trees, with bark that’s grey, border the rectangular concrete sinkhole that was once the wastewater site. The concrete path around it is cracked, black and brown vines growing out of the schisms, as if they creep out of some other dark world. The soil appears as dead as the trees, and it crunches beneath our feet, sometimes shattering at the touch as we approach the site’s edge. I expected a smell of shit, but instead I smell ash; perhaps something burned here for a very long time, its miniscule remnants forever haunting the air. There’s no wastewater anymore, though. Apparently, this place is too cursed even for that.</p>
 <p>The descent to the flat base of the site, which I estimate as only a little less than a football stadium’s, is sharp, and we have to hold our arms out to keep balance, watching out for vines and breaks in the concrete. On either side of the sump rest two large pipes, both with diameters at least double the average man’s height. There’s graffiti on the site’s walls, but it’s written in a language I don’t recognize. Jeremy waits at the center of the base; it looks like he’s talking, and quickly, but I can’t hear him.</p>
 <p>I almost slip during the descent, but Zach grabs my wrist, ending my slide. “Thanks,” I say to him, and he gives me a smile that I suspect is as much to reassure himself as it is me.</p>
@@ -345,15 +339,12 @@ ach told me Jeremy read about this place on the web: an old wastewater disposal 
 <p>“I’ll come back for you, right?” he says. He strides forward, pins me with a foot on my chest. “One day. You’ll wait. And wait. It’ll be the end of the world, but slow. For you. For everyone. An apocalypse you won’t admit is happening, until one day you look around and all is ruin.”</p>
 <p>He bends down and grabs me, his hands wet with blood, and smashes my head into the concrete. There’s darkness, an echo, too, and maybe a light in the distance, a violet one. Something calls. I want to go to it, but, instead, I wake and see the sun. Jeremy is gone; he’s discarded me like dirt. And why not? What am I, or any of us, in the wake of the man who believes he brings the end of the world?</p>
 <p>Eventually someone finds me, because of the abandoned cars. I tell them not to pick me up, that it doesn’t matter anymore, that life is going to be spent waiting for the end. They think I’m babbling and save me anyway.</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >I</glyph>
-
- return to the wastewater site in 2008. I’m a different person, yes, but also still the same. The trees that border it have decayed more, and the soil looks even more like ash. I bet for those around here, though, they can’t tell the difference: when things change slow, they might as well not change at all.</p>
+<hr>
+<p>I return to the wastewater site in 2008. I’m a different person, yes, but also still the same. The trees that border it have decayed more, and the soil looks even more like ash. I bet for those around here, though, they can’t tell the difference: when things change slow, they might as well not change at all.</p>
 <p>I stand where Zach died. Poor, foolish Zach. I talk to him, or what I remember of him, some nights before I sleep. And Jeremy? Did he die here, too, let that entity he believed was coming actually take him over? Or did he become the man he truly was, and this stupid horror was simply him giving himself permission? I don’t know which possibility is worse.</p>
 <p>There’s no markings on the ground, no dried blood, nothing to indicate the violence that went on here. All minor things wash away. Even my leg is mostly healed, outside a grotesque scar.</p>
 <p>No matter what, he’s still out there somewhere. That’s the big one. That’s what matters. I know he’s still walking around, maybe with Zach’s face over his own.</p>
 <p>You feel it, too, right? You know you’re living, that we’re all living, during the very slow end of the world.</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
 <p><em>Thanks for reading – but we&rsquo;d love feedback! Let us know what you think of <strong>The Witness</strong> at <a href="https://bsky.app/profile/mythaxis.bsky.social">Bluesky</a>.</em></p>
 
     </div>
@@ -362,7 +353,7 @@ ach told me Jeremy read about this place on the web: an old wastewater disposal 
   
   <footer class="story-footer">
     <div class="story-divider">
-      <img src="../images/roundels/fantasy-200.svg"
+      <img src="../images/roundels/MythaxisKnot.svg"
            class="story-divider__roundel roundel-animate"
            alt=""
            aria-hidden="true" />
@@ -408,15 +399,8 @@ ach told me Jeremy read about this place on the web: an old wastewater disposal 
 
   
   <div class="story-nav-strip-wrap">
-  <nav class="story-nav-strip">
+  <nav class="story-nav-strip" aria-label="Story navigation">
     <div class="story-nav-strip__prev">
-      
-      <a href="../issue-45/shooter.html" class="story-nav-strip__link" title="Shooter">
-        <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M15 18l-6-6 6-6"/>
-        </svg>
-        <span class="story-nav-strip__title">Shooter</span>
-      </a>
       
     </div>
 
@@ -425,6 +409,13 @@ ach told me Jeremy read about this place on the web: an old wastewater disposal 
     </a>
 
     <div class="story-nav-strip__next">
+      
+      <a href="../issue-45/shooter.html" class="story-nav-strip__link" title="Shooter">
+        <span class="story-nav-strip__title">Shooter</span>
+        <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M9 18l6-6-6-6"/>
+        </svg>
+      </a>
       
     </div>
   </nav>

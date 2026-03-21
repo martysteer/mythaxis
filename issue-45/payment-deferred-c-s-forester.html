@@ -23,8 +23,8 @@
 
 .theme-nebula2026 {
     
-    --color-primary: #5a3d6e;
-    --color-secondary: #a8765c;
+    --color-primary: #39e01b;
+    --color-secondary: #e75c10;
     
 }
 
@@ -53,6 +53,7 @@
 </head>
 
   <body lang='en' class="is-preload theme-nebula2026">
+    <a href="#main" class="skip-to-content">Skip to content</a>
     
     <div id="wrapper">
       
@@ -66,7 +67,10 @@
       <span class="nebula-header__subhead">Spring 2026</span>
     </a>
     
-    <button class="nebula-header__logo" id="nebula-menu-trigger" aria-label="Open menu">Mythaxis</button>
+    <button class="nebula-header__logo" id="nebula-menu-trigger" aria-label="Open menu" aria-controls="nebula-nav-panel">
+      <span>Mythaxis</span>
+      <span class="nebula-header__logo-roundel" aria-hidden="true"></span>
+    </button>
   </div>
 </header>
 
@@ -74,16 +78,19 @@
       
 
 
-<button class="nebula-burger" id="nebula-burger" aria-label="Open menu" aria-expanded="false">
+<button class="nebula-burger" id="nebula-burger" aria-label="Open menu" aria-expanded="false" aria-controls="nebula-nav-panel">
   <span class="nebula-burger__line"></span>
   <span class="nebula-burger__line"></span>
   <span class="nebula-burger__line"></span>
 </button>
 
 
-<div class="nebula-nav-panel" id="nebula-nav-panel" aria-hidden="true">
+<div class="nebula-nav-panel" id="nebula-nav-panel" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Site navigation">
   <div class="nebula-nav-panel__content">
-    <div class="nebula-nav-panel__logotype">Mythaxis</div>
+    <div class="nebula-nav-panel__logotype">
+      <span>Mythaxis</span>
+      <span class="nebula-nav-panel__logotype-roundel" aria-hidden="true"></span>
+    </div>
     <ul class="nebula-nav-panel__links">
       
       
@@ -126,7 +133,7 @@
       
     </ul>
     <div class="nebula-nav-panel__roundel">
-      <img src="../images/roundels/fantasy-100.svg" alt="" aria-hidden="true" />
+      <img src="../images/roundels/MythaxisKnot.svg" alt="" aria-hidden="true" />
     </div>
   </div>
 </div>
@@ -138,7 +145,7 @@
 
       
       <div id="main">
-        <article class="nebula2026-story-single" data-chapter-marker="orbit" data-genre="orbit">
+        <article class="nebula2026-story-single" data-chapter-marker="MythaxisTarget" data-genre="MythaxisTarget">
 
   
   <header class="story-header" id="story-header">
@@ -200,6 +207,9 @@
     </div>
     
     <div class="story-header-minimal__content">
+      <div class="story-header-minimal__logotype">
+        <img src="../images/roundels/MythaxisKnot.svg" class="story-header-minimal__issue-roundel" alt="" aria-hidden="true" />
+      </div>
       <div class="story-header-minimal__info">
         <h2 class="story-header-minimal__title">Payment Deferred, by C. S. Forester</h2>
         <span class="story-header-minimal__author">
@@ -215,9 +225,7 @@
   
   <div class="story-reading">
     <div class="story-reading__container nebula-article-content">
-      <p><glyph >T</glyph>
-
-he name Horatio Hornblower no longer has the cultural cache it once had. A popular series of naval adventure novels featuring Hornblower as a Royal Naval officer during the Napoleonic Wars, the alliteration of the character’s name has let him hang around as a familiar name, but I doubt many still read the novels and fewer still have heard of their author, C. S. Forester. Every so often, a random occurrence will push him once again to the fringes of the cultural conversation, as when his World War II novel <em>The Good Shepherd</em>, about the Battle of the Atlantic, was adapted into the film <em>Greyhound</em> by screenwriter and star Tom Hanks, but even in those rare cases if Forester’s name is mentioned at all, it’s only in passing as the author of the source novel, which was a necessary evil in getting this film off the ground.</p>
+      <p>The name Horatio Hornblower no longer has the cultural cache it once had. A popular series of naval adventure novels featuring Hornblower as a Royal Naval officer during the Napoleonic Wars, the alliteration of the character’s name has let him hang around as a familiar name, but I doubt many still read the novels and fewer still have heard of their author, C. S. Forester. Every so often, a random occurrence will push him once again to the fringes of the cultural conversation, as when his World War II novel <em>The Good Shepherd</em>, about the Battle of the Atlantic, was adapted into the film <em>Greyhound</em> by screenwriter and star Tom Hanks, but even in those rare cases if Forester’s name is mentioned at all, it’s only in passing as the author of the source novel, which was a necessary evil in getting this film off the ground.</p>
 <p>Forester’s best-known work is, again, due to a film adaptation: boats evidently being a big thing with Forester, he published <em>The African Queen</em> in 1935, which was of course turned by director John Huston, co-screenwriter James Agee, and stars Humphrey Bogart and Katharine Hepburn, into the 1951 film of the same name, a film that still stands as one of the most famous and beloved from Hollywood’s Golden Age. So clearly, in his day Forester had cornered the market on aquatic adventures, and for a long time I assumed that’s all that C. S. Forester wrote. Recently, however, I stumbled across a copy of his 1926 novel <em>Payment Deferred,</em> a merciless, hardboiled crime novel, my favorite type.</p>
 <p>There are essentially two types of crime novel, if you’ll permit me to simplify things horribly: in the first, the story is about detection. In other words, someone, either a professional or an amateur, is investigating a crime, and trying to bring the guilty party to justice. There are variations on this, and there’s a lot you can do within that framework, but for the sake of argument, that’s one type. The second is from the point of view of the criminal, and is either about guilt, or its absence. <em>Payment Deferred</em> is of the latter type.</p>
 <p>The novel is about William Marble, who is in desperate straits when we first meet him. A bank employee with a wife who is careless with money, two children about to enter the next and more expensive rounds of schooling, mixed with his own financial mistakes and a whisky habit that is creeping into dangerous territory, we meet Marble on page one, stressing over his family budget. As this is a novel about a man who feels enough despair that he feels the need to go to horrible extremes to extract himself, it’s interesting that at no point does Forester feel it necessary to make Marble likable. In the first few pages, he is needlessly sharp and punitive towards his children, John and Winnie, who have done nothing worse than keep him from his drinking. He is also callous and rude towards his wife, Annie, a woman who, as the novel progresses, will come to learn many awful things about her husband, including the possibility that not only does he no longer love her, he may never have.</p>
@@ -231,7 +239,6 @@ he name Horatio Hornblower no longer has the cultural cache it once had. A popul
 <p>At the same time, <em>Payment Deferred</em> is a blackly comic novel, though it takes a while for that to sink in, or it did with me, anyway. But due to his unwillingness to move houses, Marble has to find some way to flaunt his wealth, and so he decks out his modest little home with the most vulgar gold gilt furniture. All the neighbors are aware of both its general gaudiness and the sheer amount of it. And in addition to two further deaths that result, both directly and indirectly, from Marble’s willingness to commit murder, another way the family is destroyed is in how the daughter, Winnie, becomes spoiled through her father’s thoughtless expenditures from a seemingly bottomless store of wealth. So Marble can be blamed for three deaths, and for ruining his daughter’s personality.</p>
 <p>If that seems as glib as the title, well, the full emotional and tonal thrust of the novel is driven home by the last paragraph, which I will not quote. Suffice it to say, the novel’s strange tone, Forester’s seeming emotional indifference, both toward his characters and instilled into them, takes on a new, sharper meaning. Given the inhumanity on display in the story being told, why should the teller’s voice betray any more compassion?</p>
 <p>It&rsquo;s like a plot twist, but instead it’s a twist in tone. The tone is explained, not the plot. There’s a little bit of anger from Forester, that people can behave like this, and do these things. A little bit of cold-blooded satisfaction in the revenge he is able to take vicariously.</p>
-<p><img src="images/Orbit.svg" alt="Orbit-lrg"></p>
 <p><em>Thanks for reading - but we&rsquo;d love feedback! Let us know what you think of Bill&rsquo;s thoughts at <a href="https://bsky.app/profile/mythaxis.bsky.social">Bluesky</a>.</em></p>
 
     </div>
@@ -240,7 +247,7 @@ he name Horatio Hornblower no longer has the cultural cache it once had. A popul
   
   <footer class="story-footer">
     <div class="story-divider">
-      <img src="../images/roundels/fantasy-200.svg"
+      <img src="../images/roundels/MythaxisKnot.svg"
            class="story-divider__roundel roundel-animate"
            alt=""
            aria-hidden="true" />
@@ -286,14 +293,14 @@ he name Horatio Hornblower no longer has the cultural cache it once had. A popul
 
   
   <div class="story-nav-strip-wrap">
-  <nav class="story-nav-strip">
+  <nav class="story-nav-strip" aria-label="Story navigation">
     <div class="story-nav-strip__prev">
       
-      <a href="../issue-45/short-reviews-crime-fiction-in-2025.html" class="story-nav-strip__link" title="Short Reviews – Crime Fiction in 2025">
+      <a href="../issue-45/the-valkyries-lesson.html" class="story-nav-strip__link" title="The Valkyrie&#39;s Lesson">
         <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M15 18l-6-6 6-6"/>
         </svg>
-        <span class="story-nav-strip__title">Short Reviews – Crime Fiction in 2025</span>
+        <span class="story-nav-strip__title">The Valkyrie&#39;s Lesson</span>
       </a>
       
     </div>
@@ -304,8 +311,8 @@ he name Horatio Hornblower no longer has the cultural cache it once had. A popul
 
     <div class="story-nav-strip__next">
       
-      <a href="../issue-45/the-valkyries-lesson.html" class="story-nav-strip__link" title="The Valkyrie&#39;s Lesson">
-        <span class="story-nav-strip__title">The Valkyrie&#39;s Lesson</span>
+      <a href="../issue-45/short-reviews-crime-fiction-in-2025.html" class="story-nav-strip__link" title="Short Reviews – Crime Fiction in 2025">
+        <span class="story-nav-strip__title">Short Reviews – Crime Fiction in 2025</span>
         <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M9 18l6-6-6-6"/>
         </svg>

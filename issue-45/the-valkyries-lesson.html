@@ -23,8 +23,8 @@
 
 .theme-nebula2026 {
     
-    --color-primary: #5a3d6e;
-    --color-secondary: #a8765c;
+    --color-primary: #39e01b;
+    --color-secondary: #e75c10;
     
 }
 
@@ -53,6 +53,7 @@
 </head>
 
   <body lang='en' class="is-preload theme-nebula2026">
+    <a href="#main" class="skip-to-content">Skip to content</a>
     
     <div id="wrapper">
       
@@ -66,7 +67,10 @@
       <span class="nebula-header__subhead">Spring 2026</span>
     </a>
     
-    <button class="nebula-header__logo" id="nebula-menu-trigger" aria-label="Open menu">Mythaxis</button>
+    <button class="nebula-header__logo" id="nebula-menu-trigger" aria-label="Open menu" aria-controls="nebula-nav-panel">
+      <span>Mythaxis</span>
+      <span class="nebula-header__logo-roundel" aria-hidden="true"></span>
+    </button>
   </div>
 </header>
 
@@ -74,16 +78,19 @@
       
 
 
-<button class="nebula-burger" id="nebula-burger" aria-label="Open menu" aria-expanded="false">
+<button class="nebula-burger" id="nebula-burger" aria-label="Open menu" aria-expanded="false" aria-controls="nebula-nav-panel">
   <span class="nebula-burger__line"></span>
   <span class="nebula-burger__line"></span>
   <span class="nebula-burger__line"></span>
 </button>
 
 
-<div class="nebula-nav-panel" id="nebula-nav-panel" aria-hidden="true">
+<div class="nebula-nav-panel" id="nebula-nav-panel" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Site navigation">
   <div class="nebula-nav-panel__content">
-    <div class="nebula-nav-panel__logotype">Mythaxis</div>
+    <div class="nebula-nav-panel__logotype">
+      <span>Mythaxis</span>
+      <span class="nebula-nav-panel__logotype-roundel" aria-hidden="true"></span>
+    </div>
     <ul class="nebula-nav-panel__links">
       
       
@@ -126,7 +133,7 @@
       
     </ul>
     <div class="nebula-nav-panel__roundel">
-      <img src="../images/roundels/fantasy-100.svg" alt="" aria-hidden="true" />
+      <img src="../images/roundels/MythaxisKnot.svg" alt="" aria-hidden="true" />
     </div>
   </div>
 </div>
@@ -138,7 +145,7 @@
 
       
       <div id="main">
-        <article class="nebula2026-story-single" data-chapter-marker="orbit" data-genre="orbit">
+        <article class="nebula2026-story-single" data-chapter-marker="MythaxisTarget" data-genre="MythaxisTarget">
 
   
   <header class="story-header" id="story-header">
@@ -200,6 +207,9 @@
     </div>
     
     <div class="story-header-minimal__content">
+      <div class="story-header-minimal__logotype">
+        <img src="../images/roundels/MythaxisKnot.svg" class="story-header-minimal__issue-roundel" alt="" aria-hidden="true" />
+      </div>
       <div class="story-header-minimal__info">
         <h2 class="story-header-minimal__title">The Valkyrie&#39;s Lesson</h2>
         <span class="story-header-minimal__author">
@@ -212,7 +222,7 @@
   
   
   <div class="nebula-audio-player">
-    <audio controls>
+    <audio controls aria-label="Listen to The Valkyrie&#39;s Lesson">
       <source src="https://github.com/mythaxis/mythaxis.github.io/releases/download/i44/6.The.Valkyries.Lesson.mp3" type="audio/mpeg">
       Your browser does not support the audio tag.
     </audio>
@@ -222,9 +232,7 @@
   
   <div class="story-reading">
     <div class="story-reading__container nebula-article-content">
-      <p><glyph >"T</glyph>
-
-hank you for taking the time to meet with me today.”</p>
+      <p>&ldquo;Thank you for taking the time to meet with me today.”</p>
 <p>Detective Kimura responded with a nod and placed a heavy mug with coffee in front of his visitor, whom he had received in one of the bleak, windowless interrogation rooms of the Kyoto Prefectural Police headquarters.</p>
 <p>“I was surprised to receive your call this morning. After all, it’s been six months since the murder, that’s quite some time to come forward with information. You said you knew exactly how the victim died. I’m curious to hear more about that.”</p>
 <p>Kimura leaned back in his chair and studied the woman across from him. He had performed a quick background check before their meeting. Dr. Taira was thirty-two and held a PhD in organic chemistry from Tokyo University. She had spent several years abroad as a postdoc and had become a full professor at Kyoto University three years ago, the youngest ever in Japan.</p>
@@ -239,10 +247,8 @@ hank you for taking the time to meet with me today.”</p>
 <p>“Would you care to listen to me now?”</p>
 <p>Kimura’s mouth hung open. “How do you know all this?”</p>
 <p>Dr. Taira smiled and had another sip of coffee.</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >K</glyph>
-
-imura could not disguise his shock. Indeed, the police had not released details about the crime scene. But Dr. Taira had just described it to a T, without hesitating or seeking his approval, involuntary behaviors that often accompanied false testimony. Of course, nowadays one had to take cameras and live streaming into account, but Kimura knew that no video evidence had surfaced since the murder last spring.</p>
+<hr>
+<p>Kimura could not disguise his shock. Indeed, the police had not released details about the crime scene. But Dr. Taira had just described it to a T, without hesitating or seeking his approval, involuntary behaviors that often accompanied false testimony. Of course, nowadays one had to take cameras and live streaming into account, but Kimura knew that no video evidence had surfaced since the murder last spring.</p>
 <p>There was something about her, something he couldn’t put a finger on. After all, people didn’t confess their involvement in crimes they got away with. And yet, she had come, on her own volition. And she had spoken with a no-nonsense seriousness, as it behooved a scientist of her caliber. His long-honed intuition when interrogating people involved in serious crimes utterly failed him.</p>
 <p>He sat down again.</p>
 <p>“Thank you,” Dr. Taira said, then took a deep breath. “I wish I could tell you that I had nothing to do with the death of Mr. de Vries, but knowing what I know – and how I came to know it – well, I’m not so sure. However, you must understand that I am not particularly grieved about his demise. You see, despite his excellent reputation as a martial artist, he… let’s say, he didn’t quite live up to the standards he set for others in his dojo. I would even go so far as to say that the person teaching Aikido and the one you might meet socially had nothing to do with each other.”</p>
@@ -282,10 +288,8 @@ imura could not disguise his shock. Indeed, the police had not released details 
 <p>“When we all were finished, he wrapped his arms around his body and slowly rocked to and fro. We looked at the Valkyrie in anticipation. She bowed to the class, then turned around and bowed to the shomen. We bowed with her. But instead of turning around to dismiss us, she took the katana from its stand and bowed to it. With the smooth, practiced movements of an expert, she girded herself with the sword and positioned herself next to de Vries. When she unsheathed the katana and gripped it with both hands, we knew what was coming. There were no objections. The sentence had been pronounced, now we were to watch its execution. Even de Vries just looked up at her in silence, breathing heavily.</p>
 <p>“‘Enough pain,’ she said. ‘There will be no more pain for you. Or from you.’</p>
 <p>“The Valkyrie raised the sword up high and with a powerful shout cut off the head of the man cowering in front of her. His death felt deserved, cathartic. I had held my breath, but now I relaxed. It was over, finally, for good. The Valkyrie shook the blood from the sword and placed it back onto its stand. Almost gently, like a mother holding the face of her child, she picked up the severed head with both hands and placed it into the shomen. Once again she knelt and bowed to the shomen and we all bowed with her. That’s the last thing I remember.”</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >D</glyph>
-
-r. Taira looked at her mug, but didn’t pick it up. The left-over coffee must have been as stone-cold as Kimura’s, which had barely been touched. The detective had been completely enraptured by the final part of her story. Now that she was finished, he blinked as if waking before getting up to pace the tiny room.</p>
+<hr>
+<p>Dr. Taira looked at her mug, but didn’t pick it up. The left-over coffee must have been as stone-cold as Kimura’s, which had barely been touched. The detective had been completely enraptured by the final part of her story. Now that she was finished, he blinked as if waking before getting up to pace the tiny room.</p>
 <p>“Ridiculous. You were at the other end of the world that night. There is no way you could have killed him or even have contributed to his death. You dreamt all this and he died as a consequence? It’s absurd!”</p>
 <p>Dr. Taira managed an exhausted smile. “And yet the evidence matches what I’ve just told you, no? The beheading, all the stab wounds, countless of them shallow but a deep one for each of us. And then there’s the reason why you’re not getting anywhere with your investigation: No footprints in or around the pool of blood, no fingerprints anywhere. At least none that couldn’t have been left earlier that day during the seminar.”</p>
 <p>Kimura sat down and pulled the case file in front of him. He sat there in deep thought for a while before he wordlessly retrieved a photograph from the file and placed it in front of Dr. Taira.</p>
@@ -298,17 +302,14 @@ r. Taira looked at her mug, but didn’t pick it up. The left-over coffee must h
 <p>“Right&hellip; well, even without your testimony, she makes a fine suspect. Except, she hasn’t been in Japan for two years, when she travelled here with de Vries himself. With the help of the Dutch authorities we could verify her whereabouts at the time of the murder. It’s quite impossible that it was her. Then again…”</p>
 <p>Taira nodded. “I’m with you, detective. After all, I’m a scientist. Dreams do not create reality, no matter how much that silly New Age manifestation-through-wishful-thinking movement is trying to convince people. But the evidence matches, we both know it. I can describe the dojo in detail, even though I have never set foot in it, not before nor after the incident. I don’t even know where in Kyoto it is. In other words, how can I know what I know if my dream wasn’t real?”</p>
 <p>Dr. Taira looked at the photo again and smiled. “But what I do know is that I haven’t once thought of de Vries since I dreamed of his death, not until I heard what had actually happened. It seems that thanks to our Valkyrie, I’m free of him at last.”</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >A</glyph>
-
-fter Kimura had seen Dr. Taira out of the building, he returned to the interrogation room. A stale smell of coffee and a little perfume were all that was left behind. If her story was true, and there was no reason to believe otherwise except reason itself, he had no case. He couldn’t arrest people for what they did in their dreams, even if the results somehow did manifest in the real world.</p>
+<hr>
+<p>After Kimura had seen Dr. Taira out of the building, he returned to the interrogation room. A stale smell of coffee and a little perfume were all that was left behind. If her story was true, and there was no reason to believe otherwise except reason itself, he had no case. He couldn’t arrest people for what they did in their dreams, even if the results somehow did manifest in the real world.</p>
 <p>No, stop it, Kimura thought, bring it back to reason.</p>
 <p>Dr. Taira may have been out of the country, but she must have been involved somehow. The real murderer – the Valkyrie, or perhaps the ex-wife? – must have contacted her, before or after the fact. Maybe local organized crime committed the murder and staged the crime scene with her help. A live stream to the other end of the world was definitely possible, and such video evidence might surface eventually.</p>
 <p>But if that was the case, why did Dr. Taira call him at all? Her promising academic career would be over if it were discovered that she believed in the power of dreams to bend reality, not to mention if she were actually involved in a gruesome murder.</p>
 <p>Kimura turned the flash card with the interview round and round in his fingers for a long time. It was preposterous. Never mind the matching evidence, nobody would believe this. He would never get permission to interview the woman in the photo if she even was the Valkyrie. He had to make a decision.</p>
 <p>Against all regulations, Kimura took the memory card home, noting “camera malfunction” in the case file to account for the missing interview. He obliterated the doctor’s name, and his interview summary read only:</p>
 <p><em>Time wasted. Another crank. This one thinks she saw the murder in a dream.</em></p>
-<p><img src="images/Orbit.svg" alt="Orbit-lrg"></p>
 <p><em>Thanks for reading - but we&rsquo;d love feedback! Let us know what you think of <strong>The Valkyrie&rsquo;s Lesson</strong> at <a href="https://bsky.app/profile/mythaxis.bsky.social">Bluesky</a>.</em></p>
 
     </div>
@@ -317,7 +318,7 @@ fter Kimura had seen Dr. Taira out of the building, he returned to the interroga
   
   <footer class="story-footer">
     <div class="story-divider">
-      <img src="../images/roundels/fantasy-200.svg"
+      <img src="../images/roundels/MythaxisKnot.svg"
            class="story-divider__roundel roundel-animate"
            alt=""
            aria-hidden="true" />
@@ -363,14 +364,14 @@ fter Kimura had seen Dr. Taira out of the building, he returned to the interroga
 
   
   <div class="story-nav-strip-wrap">
-  <nav class="story-nav-strip">
+  <nav class="story-nav-strip" aria-label="Story navigation">
     <div class="story-nav-strip__prev">
       
-      <a href="../issue-45/payment-deferred-c-s-forester.html" class="story-nav-strip__link" title="Payment Deferred, by C. S. Forester">
+      <a href="../issue-45/smart-contract.html" class="story-nav-strip__link" title="Smart Contract">
         <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M15 18l-6-6 6-6"/>
         </svg>
-        <span class="story-nav-strip__title">Payment Deferred, by C. S. Forester</span>
+        <span class="story-nav-strip__title">Smart Contract</span>
       </a>
       
     </div>
@@ -381,8 +382,8 @@ fter Kimura had seen Dr. Taira out of the building, he returned to the interroga
 
     <div class="story-nav-strip__next">
       
-      <a href="../issue-45/smart-contract.html" class="story-nav-strip__link" title="Smart Contract">
-        <span class="story-nav-strip__title">Smart Contract</span>
+      <a href="../issue-45/payment-deferred-c-s-forester.html" class="story-nav-strip__link" title="Payment Deferred, by C. S. Forester">
+        <span class="story-nav-strip__title">Payment Deferred, by C. S. Forester</span>
         <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M9 18l6-6-6-6"/>
         </svg>

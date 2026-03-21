@@ -23,8 +23,8 @@
 
 .theme-nebula2026 {
     
-    --color-primary: #5a3d6e;
-    --color-secondary: #a8765c;
+    --color-primary: #39e01b;
+    --color-secondary: #e75c10;
     
 }
 
@@ -53,6 +53,7 @@
 </head>
 
   <body lang='en' class="is-preload theme-nebula2026">
+    <a href="#main" class="skip-to-content">Skip to content</a>
     
     <div id="wrapper">
       
@@ -66,7 +67,10 @@
       <span class="nebula-header__subhead">Spring 2026</span>
     </a>
     
-    <button class="nebula-header__logo" id="nebula-menu-trigger" aria-label="Open menu">Mythaxis</button>
+    <button class="nebula-header__logo" id="nebula-menu-trigger" aria-label="Open menu" aria-controls="nebula-nav-panel">
+      <span>Mythaxis</span>
+      <span class="nebula-header__logo-roundel" aria-hidden="true"></span>
+    </button>
   </div>
 </header>
 
@@ -74,16 +78,19 @@
       
 
 
-<button class="nebula-burger" id="nebula-burger" aria-label="Open menu" aria-expanded="false">
+<button class="nebula-burger" id="nebula-burger" aria-label="Open menu" aria-expanded="false" aria-controls="nebula-nav-panel">
   <span class="nebula-burger__line"></span>
   <span class="nebula-burger__line"></span>
   <span class="nebula-burger__line"></span>
 </button>
 
 
-<div class="nebula-nav-panel" id="nebula-nav-panel" aria-hidden="true">
+<div class="nebula-nav-panel" id="nebula-nav-panel" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Site navigation">
   <div class="nebula-nav-panel__content">
-    <div class="nebula-nav-panel__logotype">Mythaxis</div>
+    <div class="nebula-nav-panel__logotype">
+      <span>Mythaxis</span>
+      <span class="nebula-nav-panel__logotype-roundel" aria-hidden="true"></span>
+    </div>
     <ul class="nebula-nav-panel__links">
       
       
@@ -126,7 +133,7 @@
       
     </ul>
     <div class="nebula-nav-panel__roundel">
-      <img src="../images/roundels/fantasy-100.svg" alt="" aria-hidden="true" />
+      <img src="../images/roundels/MythaxisKnot.svg" alt="" aria-hidden="true" />
     </div>
   </div>
 </div>
@@ -160,17 +167,11 @@
         
         
         <p class="nebula-page-description">***Micah Hyatt’s*** *work has appeared in* Deep Magic Magazine, Shock Totem, Little Blue Marble, Flash Fiction Online, *and* Daily Science Fiction. *He is a veteran soldier, freight train conductor, and graduate of the Seton Hill Writing Popular Fiction MFA program. His light-hearted zombie survival novella,* [Eating the Exhibits](https://www.amazon.com/dp/B0BPYYF5RK), *is available now through Amazon.*</p>
-        
         <div class="nebula-article-divider">
-            <svg width="60" height="2" viewBox="0 0 60 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="60" height="2" rx="1" fill="url(#nebula-gradient-page)"/>
-                <defs>
-                    <linearGradient id="nebula-gradient-page" x1="0" y1="1" x2="60" y2="1">
-                        <stop stop-color="#667eea"/>
-                        <stop offset="1" stop-color="#764ba2"/>
-                    </linearGradient>
-                </defs>
-            </svg>
+            <img src="../images/roundels/MythaxisKnot.svg"
+                 class="nebula-article-divider__roundel"
+                 alt=""
+                 aria-hidden="true" />
         </div>
     </header>
 
@@ -178,8 +179,10 @@
 
     <div class="nebula-page-content">
         
-    </div><div class="story-divider">
-      <img src="../images/roundels/fantasy-200.svg"
+    </div>
+
+    <div class="story-divider">
+      <img src="../images/roundels/MythaxisIcon.svg"
            class="story-divider__roundel roundel-animate"
            alt=""
            aria-hidden="true" />

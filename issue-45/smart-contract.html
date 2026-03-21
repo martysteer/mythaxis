@@ -23,8 +23,8 @@
 
 .theme-nebula2026 {
     
-    --color-primary: #5a3d6e;
-    --color-secondary: #a8765c;
+    --color-primary: #39e01b;
+    --color-secondary: #e75c10;
     
 }
 
@@ -53,6 +53,7 @@
 </head>
 
   <body lang='en' class="is-preload theme-nebula2026">
+    <a href="#main" class="skip-to-content">Skip to content</a>
     
     <div id="wrapper">
       
@@ -66,7 +67,10 @@
       <span class="nebula-header__subhead">Spring 2026</span>
     </a>
     
-    <button class="nebula-header__logo" id="nebula-menu-trigger" aria-label="Open menu">Mythaxis</button>
+    <button class="nebula-header__logo" id="nebula-menu-trigger" aria-label="Open menu" aria-controls="nebula-nav-panel">
+      <span>Mythaxis</span>
+      <span class="nebula-header__logo-roundel" aria-hidden="true"></span>
+    </button>
   </div>
 </header>
 
@@ -74,16 +78,19 @@
       
 
 
-<button class="nebula-burger" id="nebula-burger" aria-label="Open menu" aria-expanded="false">
+<button class="nebula-burger" id="nebula-burger" aria-label="Open menu" aria-expanded="false" aria-controls="nebula-nav-panel">
   <span class="nebula-burger__line"></span>
   <span class="nebula-burger__line"></span>
   <span class="nebula-burger__line"></span>
 </button>
 
 
-<div class="nebula-nav-panel" id="nebula-nav-panel" aria-hidden="true">
+<div class="nebula-nav-panel" id="nebula-nav-panel" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Site navigation">
   <div class="nebula-nav-panel__content">
-    <div class="nebula-nav-panel__logotype">Mythaxis</div>
+    <div class="nebula-nav-panel__logotype">
+      <span>Mythaxis</span>
+      <span class="nebula-nav-panel__logotype-roundel" aria-hidden="true"></span>
+    </div>
     <ul class="nebula-nav-panel__links">
       
       
@@ -126,7 +133,7 @@
       
     </ul>
     <div class="nebula-nav-panel__roundel">
-      <img src="../images/roundels/fantasy-100.svg" alt="" aria-hidden="true" />
+      <img src="../images/roundels/MythaxisKnot.svg" alt="" aria-hidden="true" />
     </div>
   </div>
 </div>
@@ -138,7 +145,7 @@
 
       
       <div id="main">
-        <article class="nebula2026-story-single" data-chapter-marker="orbit" data-genre="orbit">
+        <article class="nebula2026-story-single" data-chapter-marker="MythaxisTarget" data-genre="MythaxisTarget">
 
   
   <header class="story-header" id="story-header">
@@ -200,6 +207,9 @@
     </div>
     
     <div class="story-header-minimal__content">
+      <div class="story-header-minimal__logotype">
+        <img src="../images/roundels/MythaxisKnot.svg" class="story-header-minimal__issue-roundel" alt="" aria-hidden="true" />
+      </div>
       <div class="story-header-minimal__info">
         <h2 class="story-header-minimal__title">Smart Contract</h2>
         <span class="story-header-minimal__author">
@@ -212,7 +222,7 @@
   
   
   <div class="nebula-audio-player">
-    <audio controls>
+    <audio controls aria-label="Listen to Smart Contract">
       <source src="https://github.com/mythaxis/mythaxis.github.io/releases/download/i44/5.Smart.Contract.mp3" type="audio/mpeg">
       Your browser does not support the audio tag.
     </audio>
@@ -222,9 +232,7 @@
   
   <div class="story-reading">
     <div class="story-reading__container nebula-article-content">
-      <p><glyph >“T</glyph>
-
-his is screwed up,” says Webb. “Who takes out a hit on a sixteen-year-old girl?”</p>
+      <p>“This is screwed up,” says Webb. “Who takes out a hit on a sixteen-year-old girl?”</p>
 <p>Dayne doesn’t answer, her attention fixed on the screen in front of her. It shows a three-part view of the interview room, two cameras focused on the faces of the girl and her mother, the bottom half of the screen showing a wide view from above the interviewer. Dayne would rather be in the room, where she could see the body language firsthand.</p>
 <p>The interviewer is a motherly woman from the Bronx named Leticia, a regular on cases involving minors. “Can you think of anyone who might want to hurt you, Luisa?” she asks.</p>
 <p>Luisa gives a tiny shake of her head, not looking up. Her black hair is drawn back in a ponytail. Her dossier says she’s sixteen, but traces of puppy fat in her cheeks make her look younger still.</p>
@@ -238,10 +246,8 @@ his is screwed up,” says Webb. “Who takes out a hit on a sixteen-year-old gi
 <p>The girl licks her lips. “Eddie,” she says after a moment.</p>
 <p>“Mi cuñado,” the mother puts in. “Luisa’s uncle. He’s good with the cyber.”</p>
 <p>There, Dayne thinks. She mentally puts him top of her suspect list. Not that she has any suspects at this point, beyond ‘persons unknown’. But it sounds like they’re going to need to have a word with Uncle Eddie.</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >W</glyph>
-
-ebb spends the afternoon tracking down the uncle. Dayne spends it trying to get the department to assign a couple of uniforms to Luisa’s building. She gets only a series of refusals. Between the latest MERS-42 variant and the usual summer protests, the department is more short-handed than ever.</p>
+<hr>
+<p>Webb spends the afternoon tracking down the uncle. Dayne spends it trying to get the department to assign a couple of uniforms to Luisa’s building. She gets only a series of refusals. Between the latest MERS-42 variant and the usual summer protests, the department is more short-handed than ever.</p>
 <p>It probably wouldn’t help anyway. “For two hundred and fifty thousand, would you shoot a couple of cops?” she asks Webb.</p>
 <p>“There’s some I’d do for free,” he says. “But I still don’t get how this shit works.”</p>
 <p>Dayne thinks for a while. To be honest, this isn’t her area either. She once dated a woman who, as Señora Valdez would put it, was good with the cyber. Every time she tried to explain something about her job, Dayne’s eyes would just glaze over. Still, she thinks she has a handle on the basics.</p>
@@ -259,10 +265,8 @@ ebb spends the afternoon tracking down the uncle. Dayne spends it trying to get 
 <p>“And whoever takes out the hit never needs to meet the hitman.”</p>
 <p>“Nope. Remember when that Russian got droned on the BQE? Feds pinned it on the Jamaicans using wiretaps, but even the guy who ordered the hit couldn’t say who actually carried it out. They still don’t know.”</p>
 <p>“OK, I get it.” Webb shakes his head. “But what I don’t get is why someone would pay a quarter of a million to ice some teenage girl living in public housing in Queens.”</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >E</glyph>
-
-ddie Arias, Luisa’s uncle Eddie, is nothing like Dayne had imagined. She had pictured some middle-aged guy with a goatee and VR pallor, the kind who lies around all day smoking dope and beating off to virtual porn stars. Instead, he’s clean-cut and conservatively dressed, with a brisk, businesslike manner. She doubts he has a quarter of a million to spend on getting anyone killed, but one day he might.</p>
+<hr>
+<p>Eddie Arias, Luisa’s uncle Eddie, is nothing like Dayne had imagined. She had pictured some middle-aged guy with a goatee and VR pallor, the kind who lies around all day smoking dope and beating off to virtual porn stars. Instead, he’s clean-cut and conservatively dressed, with a brisk, businesslike manner. She doubts he has a quarter of a million to spend on getting anyone killed, but one day he might.</p>
 <p>“How did you find out about the contract?” she asks.</p>
 <p>“They call it a ‘note’,” Eddie says. “You write a note on someone. Like Death Note, you get?”</p>
 <p>She doesn’t, but she nods anyway. “And?”</p>
@@ -282,10 +286,8 @@ ddie Arias, Luisa’s uncle Eddie, is nothing like Dayne had imagined. She had p
 <p>Eddie gives him a look. “The contract doesn’t pay out unless she’s dead. So this bit”—he touches the screen—“looks up her record in the state databases. So what you should do is get her marked as dead already.”</p>
 <p>“And then?”</p>
 <p>“Then the contract fires, the motherfucker who set it up has to pay out, and Luisa gets her life back. Problem solved, no?”</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >D</glyph>
-
-e Blasio Houses looks like any other public housing complex, with the usual maze of drainways and concrete surge walls between the buildings, ready for the next superstorm. Someone has scrawled “Bulldozer Bill” in silver marker on the sign by the entrance: Lower East Siders still mad over something that happened twenty years ago.</p>
+<hr>
+<p>De Blasio Houses looks like any other public housing complex, with the usual maze of drainways and concrete surge walls between the buildings, ready for the next superstorm. Someone has scrawled “Bulldozer Bill” in silver marker on the sign by the entrance: Lower East Siders still mad over something that happened twenty years ago.</p>
 <p>There’s anti-drone netting and tangler wire strung between the buildings, there to frustrate drug deliveries, peeping Toms and artisanal gang aviation alike. Dayne doubts that it would do much to stop even an off-the-shelf war drone, but it’s something.</p>
 <p>“City says ‘no’,” Webb tells her, pushing his earpiece back behind his ear.</p>
 <p>“Why?” Dayne asks.</p>
@@ -300,10 +302,8 @@ e Blasio Houses looks like any other public housing complex, with the usual maze
 <p>“Lookouts?” says Webb.</p>
 <p>Dayne shakes her head. “Not like you think. I think they’re Luisa’s friends, watching out for her.”</p>
 <p>Webb’s cell buzzes and he swipes up a message. “Well, fortunately Luisa isn’t the only one who knows streetwise juveniles with an ear to the ground.” He catches Dayne’s wince of incomprehension and grins: “One of my CI’s just checked in.”</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >W</glyph>
-
-ebb’s informant is a round-faced girl in thick glasses and a sweatshirt that slowly cycles through a rainbow of different colors. They meet in a diner and she and Webb talk together for a while in what Dayne guesses is Cantonese. Finally, the girl smirks, looks at Dayne, and says something to Webb that makes them both laugh.</p>
+<hr>
+<p>Webb’s informant is a round-faced girl in thick glasses and a sweatshirt that slowly cycles through a rainbow of different colors. They meet in a diner and she and Webb talk together for a while in what Dayne guesses is Cantonese. Finally, the girl smirks, looks at Dayne, and says something to Webb that makes them both laugh.</p>
 <p>“Nice to meet you too,” says Dayne.</p>
 <p>The girl wrinkles her snub nose. “You wanna ask me something?” she says in English.</p>
 <p>“Sure,” says Dayne. “Do you know a girl named Luisa Valdez?”</p>
@@ -321,10 +321,8 @@ ebb’s informant is a round-faced girl in thick glasses and a sweatshirt that s
 <p>Webb waits for the door to close behind the girl. “What do you think?” he says.</p>
 <p>“Doesn’t add up,” says Dayne. “If Luisa wasn’t involved in the beatdown, why take out a contract on her? When the contract was written, the payout was already more than five thousand. That’s too much money for a bunch of kids to spend just to get even.” She sighs. “Your informant’s right. Luisa doesn’t fit this picture. We’re missing something.”</p>
 <p>Webb nods. “Probably,” he admits. His face brightens. “Maybe we should start digging at the other end. Wanna go talk to one of the kids that Luisa’s friends beat up?”</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >T</glyph>
-
-he kid is God’s gift to a detective, which is to say that he’s either too scared or too dumb to remember that he shouldn’t talk to cops. At eighteen, he ought to know better.</p>
+<hr>
+<p>The kid is God’s gift to a detective, which is to say that he’s either too scared or too dumb to remember that he shouldn’t talk to cops. At eighteen, he ought to know better.</p>
 <p>“You’re in bad trouble,” Dayne tells him, talking around the subject enough to let implications do the heavy lifting. “Serious note to be putting out on someone. I hear they’re gonna put that on you.”</p>
 <p>“But I didn’t—”</p>
 <p>“Don’t try to pull that shit,” she says. “We know what happened.”</p>
@@ -349,10 +347,8 @@ he kid is God’s gift to a detective, which is to say that he’s either too sc
 <p>“Two thousand dollars?” says Webb, sounding disgusted. “You were going to murder someone for a lousy two kay?”</p>
 <p>The boy finally wises up. “I want a lawyer.”</p>
 <p>“Help yourself,” says Dayne. “We’re done here.”</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >W</glyph>
-
-ebb drives while Dayne gets out her tablet and digs into the cryptomarkets, chasing past contracts. She feels as if she’s going down some impossible rabbit hole built out of jargon and wishful thinking. The people who live in this alternate universe speak a language of their own, and Dayne doesn’t have the slightest idea how to make sense of it.</p>
+<hr>
+<p>Webb drives while Dayne gets out her tablet and digs into the cryptomarkets, chasing past contracts. She feels as if she’s going down some impossible rabbit hole built out of jargon and wishful thinking. The people who live in this alternate universe speak a language of their own, and Dayne doesn’t have the slightest idea how to make sense of it.</p>
 <p>Despite that, she does learn a few things. The cryptocurrency involved is called SerenityCoin. Last week, it was worth almost nothing. This week, it’s suddenly much more valuable. Next week it could be worth thirty times as much, or nothing at all. But for right now the contract is live, and someone spent twenty-five thousand dollars to buy a chance at a serious payout.</p>
 <p>She tries to put herself in the hitman’s shoes. If it looks like the coin will keep going up, it’s in his interest to let Luisa live a little longer. But if it goes all the way to zero, the girl’s safe for good. The danger is that if the coin starts to fall, he might decide to strike first to protect his investment. It’s a hell of a thing, she thinks, a child’s life dependent on the fluctuations of imaginary nerd money.</p>
 <p>She’s still thinking about that when her phone buzzes. She glances at it, taps the screen to connect. “What can I do for you, Mr Arias?”</p>
@@ -386,10 +382,8 @@ ebb drives while Dayne gets out her tablet and digs into the cryptomarkets, chas
 <p>“But then it all goes wrong,” Dayne says. “The penny ante shitcoin they scraped together for the latest contract suddenly goes to the moon, and before they can cancel someone heavy bids on it. And anyone who can cover a ten per cent buy-in on a quarter million payout is gonna be more dangerous than a bunch of kids from Bloomberg Houses.”</p>
 <p>Webb opens his mouth to say something, but his radio vibrates noisily. An instant later, Dayne feels her own radio buzz against her hip. She taps her earpiece.</p>
 <p>“Shots fired at De Blasio Houses,” says the synthetic voice in her ear. “EMS requested on a rush. All units respond.”</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >T</glyph>
-
-hey use the siren all the way, scattering cyclists and gyro-wheelers. When they get there, De Blasio is in chaos, with people spilling out of the exits in a panic. A pair of department drones hover overhead, heavy-duty rotors cutting the air with an ear-battering wop-wop, red and white strobes flickering off the faces in the crowd. Two uniformed cops are throwing down bead balls to create a perimeter, the tiny robots self-assembling to fence off the scene.</p>
+<hr>
+<p>They use the siren all the way, scattering cyclists and gyro-wheelers. When they get there, De Blasio is in chaos, with people spilling out of the exits in a panic. A pair of department drones hover overhead, heavy-duty rotors cutting the air with an ear-battering wop-wop, red and white strobes flickering off the faces in the crowd. Two uniformed cops are throwing down bead balls to create a perimeter, the tiny robots self-assembling to fence off the scene.</p>
 <p>Dayne catches a glimpse of Eddie Arias in the crowd and she guesses he’s probably tooled up. His eyes meet hers, but she doesn’t want to speak to him now, because she’d end up having to arrest him. She has other things on her mind.</p>
 <p>​	“Luisa’s apartment,” she says.</p>
 <p>​	“Shouldn’t we wait—”</p>
@@ -403,19 +397,15 @@ hey use the siren all the way, scattering cyclists and gyro-wheelers. When they 
 <p>Dayne opens her mouth to yell a warning before she fires, but the assassin is already turning toward her, a gun appearing in his hand as if by magic. She doesn’t know what it is, but she can guess: something 3D-printed, untraceable, firing caseless ammunition, a weapon for a professional killer. He’s frighteningly fast, and she knows she’s outclassed, knows she’s going to die, just as the dead girl on the floor below must have known. She is too slow, and much, much too late.</p>
 <p>Red and white light flickers on the walls of the corridor. The window at the far end implodes inward, fragments of glass shining like diamonds. The sound of the shot is curiously muted, a soft thud almost inaudible above the sudden buzz of rotors.</p>
 <p>The black-clad man is slammed heavily against the wall. Dayne watches him slide down, loose-limbed, those glittering eyes seemingly still fixed on her. He comes to rest in a sitting position, his head bowed on his chest, the gun across his lap. The last shards of glass fall from the window frame as the police drone slides into the corridor and takes up station, hovering above the man it has just killed.</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >D</glyph>
-
-ayne sits on the steps outside, staring at nothing in particular, Webb sitting beside her. On the far side of the bead-ball fence, a silent crowd lingers, eager for more excitement.</p>
+<hr>
+<p>Dayne sits on the steps outside, staring at nothing in particular, Webb sitting beside her. On the far side of the bead-ball fence, a silent crowd lingers, eager for more excitement.</p>
 <p>“The girl?” says Webb.</p>
 <p>“Her cousin,” Dayne says. “Rosa Madryn. Twenty-two years old.” Her earpiece had whispered the information to her as she waited for the investigators to come and take her gun and bodycam.</p>
 <p>“You think she tried to stop him?”</p>
 <p>Dayne nods. She wonders if Rosa was one of the kids who thought up the whole scheme, or if she’d been no more than muscle. And when it was Luisa’s turn to be the bait, did Rosa promise her she’d look after her? Don’t worry, cuz. I got you. I’ll keep you safe.</p>
 <p>She gets to her feet, feeling tired. “Let’s go talk to her.”</p>
-<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p><glyph >I</glyph>
-
-n the end they don’t do much talking. Luisa’s eyes are red, and the mother has been crying too. She looks worse than Luisa. Dayne feels a pang of sympathy. Whatever else, their grief is genuine. Then she remembers that Luisa is not blameless in her cousin’s death.</p>
+<hr>
+<p>In the end they don’t do much talking. Luisa’s eyes are red, and the mother has been crying too. She looks worse than Luisa. Dayne feels a pang of sympathy. Whatever else, their grief is genuine. Then she remembers that Luisa is not blameless in her cousin’s death.</p>
 <p>Her mother clears her throat. “So what happens now?” she asks.</p>
 <p>“That’s one for the lawyers to figure out,” says Webb. “I don’t even know what they’d charge Luisa with.”</p>
 <p>Dayne catches Luisa’s eye. “When all that crypto went big, you panicked, right?” she says. “And you dropped a hint to Eddie, knowing he’d tell your mother?”</p>
@@ -427,7 +417,6 @@ n the end they don’t do much talking. Luisa’s eyes are red, and the mother h
 <p>Dayne thinks about the dead girl on the corridor floor and decides that isn’t going to happen. No one should get rich out of this. She wants that money gone forever.</p>
 <p>She has no idea how to do it. But she knows who she can ask.</p>
 <p>Maybe it’s time to find out just how good with the cyber Luisa’s uncle Eddie really is.</p>
-<p><img src="images/Orbit.svg" alt="Orbit-lrg"></p>
 <p><em>Thanks for reading - but we&rsquo;d love feedback! Let us know what you think of <strong>Smart Contract</strong> at <a href="https://bsky.app/profile/mythaxis.bsky.social">Bluesky</a>.</em></p>
 
     </div>
@@ -436,7 +425,7 @@ n the end they don’t do much talking. Luisa’s eyes are red, and the mother h
   
   <footer class="story-footer">
     <div class="story-divider">
-      <img src="../images/roundels/fantasy-200.svg"
+      <img src="../images/roundels/MythaxisKnot.svg"
            class="story-divider__roundel roundel-animate"
            alt=""
            aria-hidden="true" />
@@ -482,14 +471,14 @@ n the end they don’t do much talking. Luisa’s eyes are red, and the mother h
 
   
   <div class="story-nav-strip-wrap">
-  <nav class="story-nav-strip">
+  <nav class="story-nav-strip" aria-label="Story navigation">
     <div class="story-nav-strip__prev">
       
-      <a href="../issue-45/the-valkyries-lesson.html" class="story-nav-strip__link" title="The Valkyrie&#39;s Lesson">
+      <a href="../issue-45/mad-gods-and-englishmen.html" class="story-nav-strip__link" title="Mad Gods &amp; Englishmen">
         <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M15 18l-6-6 6-6"/>
         </svg>
-        <span class="story-nav-strip__title">The Valkyrie&#39;s Lesson</span>
+        <span class="story-nav-strip__title">Mad Gods &amp; Englishmen</span>
       </a>
       
     </div>
@@ -500,8 +489,8 @@ n the end they don’t do much talking. Luisa’s eyes are red, and the mother h
 
     <div class="story-nav-strip__next">
       
-      <a href="../issue-45/mad-gods-and-englishmen.html" class="story-nav-strip__link" title="Mad Gods &amp; Englishmen">
-        <span class="story-nav-strip__title">Mad Gods &amp; Englishmen</span>
+      <a href="../issue-45/the-valkyries-lesson.html" class="story-nav-strip__link" title="The Valkyrie&#39;s Lesson">
+        <span class="story-nav-strip__title">The Valkyrie&#39;s Lesson</span>
         <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M9 18l6-6-6-6"/>
         </svg>
